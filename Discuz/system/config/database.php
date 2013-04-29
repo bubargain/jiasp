@@ -5,9 +5,9 @@ $config['prefix'] = 'aws_';
 $config['driver'] = 'MySQLi';
 $config['master'] = array (
   'charset' => 'utf8',
-  'host' => '192.168.1.104',
+  'host' => 'localhost',
   'username' => 'root',
-  'password' => 'RooT',
+  'password' => 'bubargain2012',
   'dbname' => 'jiasp',
   'db_port' => '3306',
 );
