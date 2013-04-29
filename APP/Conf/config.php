@@ -11,9 +11,9 @@ return array(
         'DB_PORT'   =>  3306, // 端口
         'DB_PREFIX' => 'jiasp_', // 数据库表前缀 
 		'VAR_URL_PARAMS' => '_URL_',
-		'SAE_OR_NOT' =>'false',  //local test enviroment
+		'SAE_OR_NOT' =>'true',  //local test enviroment
 		'WEBSITE_ADD' => 'http://www.jiasp.com/',  //website address
-		'PIC_SERVER' => 'http://www.jiasp.com/jiasp2/',  // picture sever address
+		'PIC_SERVER' => 'http://121.199.29.18/',  // picture sever address
 		'UPLOAD_ADD'  => './Public/Uploads/',
 		'TMPL_PARSE_STRING'  =>array(
 				 //'__PUBLIC__' => '/jiasp2/Public', // 更改默认的/Public 替换规则
