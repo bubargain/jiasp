@@ -1,0 +1,305 @@
+<?php if (!defined('THINK_PATH')) exit();?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:og="http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#">
+<head >
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta name="keywords" content="空间设计,家居,居家装修,室内设计,设计师,装修,维护,家具,图片分享" />
+<meta name="description" content ="佳空间是一个室内空间设计的视觉分享及社交化电话平台。我们帮助设计师和大众建立起沟通的桥梁，以设计为媒介，帮助用户发现心目中理想的家居风格，并寻找到合适的家修供应商" />
+
+<link rel='stylesheet' type='text/css' href='__PUBLIC__/CSS/mainUpload.css' />
+<link rel='stylesheet' type='text/css' href='__PUBLIC__/CSS/topicNavigationUpload.css' />
+<link rel='stylesheet' type='text/css' href='__PUBLIC__/CSS/uploadUpload.css' />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript">
+if (typeof jQuery === 'undefined')
+{
+	var e = document.createElement('script');
+	e.src = 'localhost/Public/JS/jquery-1.7.1.min.js';
+	e.type='text/javascript';
+	document.getElementsByTagName("head")[0].appendChild(e);
+}
+</script>
+<script language='javascript' type='text/javascript' src='__PUBLIC__/JS/mainUpload.js'></script>
+<script language='javascript' type='text/javascript' src='__PUBLIC__/JS/buzzUpload.js'></script>
+<script language='javascript' type='text/javascript' src='__PUBLIC__/JS/standardHeaderUpload.js'></script>
+<script language='javascript' type='text/javascript' src='__PUBLIC__/JS/topicNavigationUpload.js'></script>
+<script language='javascript' type='text/javascript' src='__PUBLIC__/JS/swfuploadUpload.js'></script>
+
+
+
+<script>
+			HZ.ajaz.Services.autoCompleteKeyword = function(textFragment, type, onSuccess, extras) {
+			var params = [
+				{name:'query',value:textFragment},
+				{name:'type',value:type}
+			];
+			var url = "\/searchKeyword";
+			HZ.ajaz.AjaxReq.send(url,params,onSuccess,extras);
+		}
+			HZ.navigation.NavBar.init(
+	{	
+	 	searchOptions:[{"label":"Photos","hint":"Search photos & more...","etype":3,"url":"http://www.houzz.com/"},{"label":"Products","hint":"Search products...","etype":13,"url":"http://www.houzz.com/photos/products/"},{"label":"Ideabooks","hint":"Search ideabooks...","etype":1,"url":"http://www.houzz.com/ideabooks/query/"},{"label":"Discussions","hint":"Search discussions...","etype":5,"url":"http://www.houzz.com/discussions/query/"},{"label":"Professionals","hint":"Search professionals...","etype":10,"url":"http://www.houzz.com/professionals"},{"label":"Users","hint":"Search users...","etype":2,"url":"http://www.houzz.com/users/query/"}],
+		searchText:"Photos",
+		autoComplete: true,
+		autoSuggestSearchTypes:[3,13,10,1],
+		collapseMode:0,
+		menuMode:1,
+		searchInputBoxId: "#navSearchInput",
+		autoSuggestContainerId:"#navSearchAutoSuggestContainer",
+		searchTypeButtonId:"#navSearchTypeButton",
+		locationQuery:"",
+		sfle:"searchf",
+		ssle:"searchs",
+		bdle:"browse_page"	});
+
+	(function() {
+		var events = {"#topicHomeMenu .navigationItem":"nav_clk_main"},
+			key, value;
+		function getClosureFunction(v) {
+			return function() {
+				HZ.utils.Logger.sendEventLogOnce(v);
+			};
+		}
+		for (key in events) {
+			value = events[key];
+			$(key).mousedown(getClosureFunction(value));
+		}
+	})();
+	
+</script>
+
+			<meta name="robots" content="All" /> 
+		    <meta name="rating" content="General" />
+		    			<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+			<link rel="shortcut icon" href="__PUBLIC__/images/favicon.png" type="image/x-icon"/>
+			
+						
+	        <title>空间-聚集国内外设计师的居家设计分享平台</title>
+<noscript> 
+<img src="http://b.scorecardresearch.com/p?c1=2&c2=10128082&c3=&c4=&c5=&c6=&c15=&cv=2.0&cj=1" /> 
+</noscript> 
+  
+		</head>
+<body>
+				
+	    <?php echo ($head); ?>
+
+<div id='mainArea' class='shortHeader'>
+		<div id='mainContent' style="min-height:550px">
+		<div style="height:15px"></div>
+			<div class="progression">
+		<span class="step1">步骤一：上传设计图片</span>
+		<span class="step2">
+							步骤二: 添加设计描述
+						</span>
+	</div>
+	<form class="stdForm gallery" method="post" enctype="multipart/form-data" id="upload" name="upload" action="__ROOT__/Usr/picUpload">
+		
+		<div class="formSection">
+				<table class="hzChoiceTabs">
+					<tr>
+							<td class="hzChoice toGallery selected">
+				<div class="expanded">
+					<div class="hzChoiceTitle">上传图片到创意集</div>
+					<div class="hzChoiceText">创建新的创意集，或者直接上传到已有创意集.</div>
+				</div>
+				<div class="collapsed">
+					<div class="hzChoiceText">或者 上传到创意集</div>
+				</div>
+			</td>
+				<td class="hzChoice toProject ">
+				<div class="expanded">
+					<div class="hzChoiceTitle">添加到一个完整项目</div>
+					<div class="hzChoiceText">项目是一系列图片的集合，通常以房屋，施工项目，产品线等划分.</div>
+				</div>
+				<div class="collapsed">
+					<div class="hzChoiceText">或者 添加一个完整项目</div>
+				</div>
+			</td>
+						</tr>
+				</table>
+			</div>
+
+		
+			<div id="proSignup">
+			<b>您是一位行业专家? </b>&nbsp;<a class='boldLink colorLink' href='http://www.houzz.com/getStartedProf'>升级账号为免费专业账户 &raquo;</a>
+		</div>
+			<div id="selectGallerySection" class="formSection padded">
+		<div class="sectionTitle">选择创意集</div>
+		<div class="sectionBody">
+			<table class="flds">
+					<tr>
+		<td class="fldLabel"><label for="gallerySelect">创意集</label></td>
+		<td>
+			<select id="gallerySelect" name="galleryId">
+				<option value="-1">上传图片到哪个创意集?</option>
+				<option value='1'>厨房创意</option>
+				<option value='2'>卧室创意</option>
+				<option value='3'>客厅创意</option>
+				<option value='4'>卫生间创意</option>
+				<option value='5'>餐厅创意</option>
+				<option value='6'>儿童房创意</option>
+				<option value='7'>阳台创意</option>
+				<option value='8'>书房创意</option>
+				<option value='9'>储物间创意</option>
+				<option value='10'>其他局部创意</option>
+				<option value='11'>整体创意</option>
+			</select>
+		</td>
+	</tr>
+	<tr id="newGalleryNameFldRow">
+		<td class="fldLabel"><label for="newGalleryNameFld"></label>新创意集名称</td>
+		<td>
+			<input type="text" id="newGalleryNameFld" maxlength="71" name="newGalleryName" value=""/>
+		</td>
+	</tr>
+				</table>
+		</div>
+	</div>
+		<input type="hidden" maxlength="10" name="ownerId" value="6539131" />
+	    <input id="sess" name="sess" value="CgBPaWtRamp7ewgDAAAAACRgvngFPgOWaBRy5O9BVtYhyDJHvicgMpL5TcEp7ijWc2hvbmJp" type="hidden"></input>
+	<div id="uploadPhotosSection" class="formSection padded">
+		<div class="sectionTitle">选择图片</div>
+		<div class="sectionBody">
+			<div id="uploadPhotosFlds" class="flash">
+				<input type="file"  name="photo1">
+				<div class="htmlUploadFileButton">
+					<input type="file" name="Filedata" />
+				</div>
+				<div class="subtext uploadTips"><b>图片宽度最好大于1000px</b></div>
+				<fieldset class="flash" id="fsUploadProgress">
+					<legend>Files</legend>
+				</fieldset>
+			</div>
+			<div id="dosAndDonts" class="uploadTips">
+				<div>
+					<div class='uploadPolicyHeader dos'>上传 
+					</div>
+					<div class='uploadPolicyHeader'>取消
+					</div>
+					<div class='floatSeparator'></div>
+				</div>
+				<div class='uploadPolicyLine'>
+					<div class='uploadPolicy'>居家图片
+					</div>
+					<div class='uploadPolicy'>商业地产OR办公室设计
+					</div>
+					<div class='floatSeparator'></div>
+				</div>
+	<div class='uploadPolicyLine'>
+					<div class='uploadPolicy'>大图 (宽度大于1000 像素)
+					</div>
+					<div class='uploadPolicy'>小图
+					</div>
+					<div class='floatSeparator'></div>
+				</div>
+				<div class='uploadPolicyLine'>
+					<div class='uploadPolicy'>JPEG, GIF or PNG 格式
+					</div>
+					<div class='uploadPolicy'>PDF, TIFF, or EPS 格式
+					</div>
+					<div class='floatSeparator'></div>
+				</div>
+				<div class='uploadPolicyLine'>
+					<div class='uploadPolicy'>高清图片
+					</div>
+					<div class='uploadPolicy'>一般质量
+					</div>
+					<div class='floatSeparator'></div>
+				</div>
+				<div class="subtext">为符合规则的图片将被移除.</div>
+			</div>
+		</div>
+	</div>
+		<div id="uploadButtonSection" class="formSection padded">
+		<div class="sectionBody">
+				<span class="legal">请确保上传图片符合相关法律法规，本网站对此具有最终解释权</span>
+		<div id="submitBtnContainer">
+						<input id="submitBtn" type="submit" class="hzBtn primary " value="Upload"   name="submitBtn"/>
+						
+		</div>
+		</div>
+	</div>
+		</form>
+		</div>
+		</div> <!-- end of mainArea -->
+<script language='javascript' type='text/javascript' src='__PUBLIC__/JS/likeUpload.js'></script>
+<script language='javascript' type='text/javascript' src='__PUBLIC__/JS/upload.js'></script>
+<script>
+		HZ.data.CurrentSessionUser = new HZ.data.SessionUser(6539131, "shonbi", "shonbi");
+</script>
+<script>
+	HZ.spaceActions.AddToIdeabookDialog.setGalleries ({"recent":[{"id":"9208842","featured":false,"title":"Dining Room Ideas","isPrivate":false},{"id":"9208848","featured":false,"title":"Exterior Ideas","isPrivate":false},{"id":"9208847","featured":false,"title":"Closet Ideas","isPrivate":false},{"id":"9208846","featured":false,"title":"Home Office Ideas","isPrivate":false},{"id":"9208845","featured":false,"title":"Kids Ideas","isPrivate":false}],"own":[{"id":"9208839","featured":false,"title":"Bathroom Ideas","isPrivate":false},{"id":"9208840","featured":false,"title":"Bedroom Ideas","isPrivate":false},{"id":"9208847","featured":false,"title":"Closet Ideas","isPrivate":false},{"id":"9208842","featured":false,"title":"Dining Room Ideas","isPrivate":false},{"id":"9208848","featured":false,"title":"Exterior Ideas","isPrivate":false},{"id":"9208846","featured":false,"title":"Home Office Ideas","isPrivate":false},{"id":"9208845","featured":false,"title":"Kids Ideas","isPrivate":false},{"id":"9208838","featured":false,"title":"Kitchen Ideas","isPrivate":false},{"id":"9208843","featured":false,"title":"Landscape Ideas","isPrivate":false},{"id":"9208841","featured":false,"title":"Living Room Ideas","isPrivate":false},{"id":"9208844","featured":false,"title":"Patio Ideas","isPrivate":false}],"shared":[]});
+	HZ.spaceActions.AddToIdeabookDialog.setLastGalleryId (9208842);
+	HZ.spaceActions.AddToIdeabookDialog.setDefaultGalleryTitle("shonbi's ideas");
+	HZ.spaceActions.AddToIdeabookDialog.setShowIdeabookConfirm(true);	
+	
+	HZ.spaceActions.QuestionDialog.JSON_KEY_SPACE_ID = "spaceId";
+	HZ.spaceActions.QuestionDialog.JSON_KEY_QUESTIONS = "questions";
+	HZ.spaceActions.QuestionDialog.JSON_KEY_DAILY_QUESTIONS_QUOTA_EXCEEDED = "quotaExceeded";
+	
+	HZ.spaceActions.EmailDialog.DEFAULT_MESSAGE_3 = "Take a look at this great space that I found on www.houzz.com, and let me know what you think.";
+	HZ.spaceActions.EmailDialog.DEFAULT_MESSAGE_1 = "Take a look at these great spaces that I found on www.houzz.com, and let me know what you think.";
+	HZ.spaceActions.EmailDialog.DEFAULT_MESSAGE_5 = "Take a look at this interesting discussion I found on www.houzz.com, and let me know what you think.";
+	HZ.spaceActions.EmailDialog.DEFAULT_MESSAGE_10 = "";
+		
+	function showAddToMyGalleryForm (spaceId) {
+		HZ.spaceActions.AddToIdeabookDialog.init (spaceId);
+		HZ.ui.Yamdi.show(HZ.spaceActions.AddToIdeabookDialog, null);
+	}	
+
+	function showPostToForumForm (spaceId, ownedByPro) {
+		HZ.spaceActions.QuestionDialog.init (spaceId, ownedByPro);
+		HZ.ui.Yamdi.show(HZ.spaceActions.QuestionDialog, null);
+	}
+	
+	function showSendSpaceEmailDialog (spaceId) {
+		var userSignedIn = true;
+		if (!userSignedIn) {
+			HZ.auth.Manager.signup(11);
+		} else {
+			if (HZ.data && HZ.data.Spaces) {
+				var space = HZ.data.Spaces.get(spaceId);
+				if (space) {
+					HZ.spaceActions.EmailDialog.init (3, space.id, space.t, 
+						(space.prod?"Take a look at this great product that I found on www.houzz.com, and let me know what you think.":HZ.spaceActions.EmailDialog.DEFAULT_MESSAGE_3));
+					HZ.ui.Yamdi.show (HZ.spaceActions.EmailDialog);
+				}
+			}
+		}
+	}
+
+</script>
+<script>
+	HZ.like.Like.init({"listTitle":"People who like this"});
+</script>
+<script>
+	HZ.utils.HoverCard.init({isTouchDev: 0});
+</script>
+		    <script>
+	
+        HZ.publish.Manager.init();
+    </script>
+    <script>
+	HZ.data.CSRFToken = 'NTcxN2UzOTJiMDEyNjM1MGVjMjAyYmQ0ZjhmMDllZTk1MjEyMzhlYWI4YmRlOGZiYzg3YmJlYjk1Y2JmOWViMw==';
+	if (window.hzmr)
+	{
+		window.hzmr.version = 1593;
+		for (var i=0; i<window.hzmr.length; i++) {
+			var filename = window.hzmr[i];
+			var v = filename.match(/(\d*)$/)[0];
+			if (v != window.hzmr.version) {
+				HZ.utils.Logger.sendError({msg:"Page version "+window.hzmr.version+" doesn't match file version "+filename, file:null, line:null, url:window.location.href});
+				break;
+			}
+		}
+	}
+</script>
+
+
+<?php echo ($foot); ?>
+
+</body>
+</html>

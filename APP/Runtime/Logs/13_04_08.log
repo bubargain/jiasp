@@ -1,0 +1,1207 @@
+[ 2013-04-08T14:47:45+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T14:47:45+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000654s ]
+[ 2013-04-08T14:47:45+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000745s ]
+[ 2013-04-08T14:47:45+08:00 ] /jiasp2/ | NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at G:\apache\htdocs\jiasp2\ThinkPHP\Extend\Engine\Sae\SaeImit\config.php:8) functions.php 第 411 行.
+[ 2013-04-08T14:47:45+08:00 ] /jiasp2/ | NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at G:\apache\htdocs\jiasp2\ThinkPHP\Extend\Engine\Sae\SaeImit\config.php:8) functions.php 第 411 行.
+[ 2013-04-08T14:47:45+08:00 ] /jiasp2/ | NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\apache\htdocs\jiasp2\ThinkPHP\Extend\Engine\Sae\SaeImit\config.php:8) IndexAction.class.php 第 5 行.
+[ 2013-04-08T14:52:45+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T14:52:45+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000766s ]
+[ 2013-04-08T14:52:45+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000862s ]
+[ 2013-04-08T14:56:16+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T14:56:16+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000735s ]
+[ 2013-04-08T14:56:16+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000830s ]
+[ 2013-04-08T14:56:16+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T14:56:16+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000842s ]
+[ 2013-04-08T14:56:16+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000922s ]
+[ 2013-04-08T14:56:16+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T14:56:16+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.036007s ]
+[ 2013-04-08T14:56:16+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.036276s ]
+[ 2013-04-08T14:56:16+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T14:56:16+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000732s ]
+[ 2013-04-08T14:56:16+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000767s ]
+[ 2013-04-08T14:56:16+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000408s ]
+[ 2013-04-08T14:56:16+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000660s ]
+[ 2013-04-08T14:56:16+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002789s ]
+[ 2013-04-08T14:56:16+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T14:56:16+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000713s ]
+[ 2013-04-08T14:56:16+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000799s ]
+[ 2013-04-08T15:04:06+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T15:04:06+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001120s ]
+[ 2013-04-08T15:04:06+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001259s ]
+[ 2013-04-08T15:04:06+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T15:04:06+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.001299s ]
+[ 2013-04-08T15:04:06+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.001417s ]
+[ 2013-04-08T15:04:06+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T15:04:06+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.019302s ]
+[ 2013-04-08T15:04:06+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.019400s ]
+[ 2013-04-08T15:04:06+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T15:04:06+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000697s ]
+[ 2013-04-08T15:04:06+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000752s ]
+[ 2013-04-08T15:04:06+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000398s ]
+[ 2013-04-08T15:04:06+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000645s ]
+[ 2013-04-08T15:04:06+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002684s ]
+[ 2013-04-08T15:04:06+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T15:04:06+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000753s ]
+[ 2013-04-08T15:04:06+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000850s ]
+[ 2013-04-08T15:04:06+08:00 ] /jiasp2/Public/CSS/mainui.css | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:04:06+08:00 ] /jiasp2/Public/CSS/2.css | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:04:06+08:00 ] /jiasp2/Public/CSS/3.css | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:04:06+08:00 ] /jiasp2/Public/JS/2.js | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:04:06+08:00 ] /jiasp2/Public/JS/ajaxEventLogger.js | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:04:32+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T15:04:32+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001124s ]
+[ 2013-04-08T15:04:32+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001275s ]
+[ 2013-04-08T15:04:32+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T15:04:32+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.001143s ]
+[ 2013-04-08T15:04:32+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.001269s ]
+[ 2013-04-08T15:04:32+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T15:04:32+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.024245s ]
+[ 2013-04-08T15:04:32+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.024349s ]
+[ 2013-04-08T15:04:32+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T15:04:32+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000685s ]
+[ 2013-04-08T15:04:32+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000720s ]
+[ 2013-04-08T15:04:32+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000369s ]
+[ 2013-04-08T15:04:32+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000667s ]
+[ 2013-04-08T15:04:32+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002643s ]
+[ 2013-04-08T15:04:32+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T15:04:32+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000882s ]
+[ 2013-04-08T15:04:32+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000976s ]
+[ 2013-04-08T15:04:32+08:00 ] /jiasp2/Public/CSS/mainui.css | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:04:32+08:00 ] /jiasp2/Public/CSS/2.css | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:04:32+08:00 ] /jiasp2/Public/JS/ajaxEventLogger.js | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:04:32+08:00 ] /jiasp2/Public/CSS/3.css | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:04:32+08:00 ] /jiasp2/Public/JS/2.js | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:05:02+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T15:05:02+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000897s ]
+[ 2013-04-08T15:05:02+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001045s ]
+[ 2013-04-08T15:05:02+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T15:05:02+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.001287s ]
+[ 2013-04-08T15:05:02+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.001419s ]
+[ 2013-04-08T15:05:02+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T15:05:02+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.018302s ]
+[ 2013-04-08T15:05:02+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018407s ]
+[ 2013-04-08T15:05:02+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T15:05:02+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000698s ]
+[ 2013-04-08T15:05:02+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000812s ]
+[ 2013-04-08T15:05:02+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000344s ]
+[ 2013-04-08T15:05:02+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000611s ]
+[ 2013-04-08T15:05:02+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002676s ]
+[ 2013-04-08T15:05:02+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T15:05:02+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000814s ]
+[ 2013-04-08T15:05:02+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000908s ]
+[ 2013-04-08T15:05:03+08:00 ] /jiasp2/Public/pic/black-image-bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:05:03+08:00 ] /jiasp2/Public/pic/n5Bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:05:03+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:05:03+08:00 ] /jiasp2/Public/pic/sprite-signUp.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:05:03+08:00 ] /jiasp2/Public/pic/n5ExpandArrow.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:05:03+08:00 ] /jiasp2/Public/pic/proShadow-middle.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:05:03+08:00 ] /jiasp2/Public/pic/home_sprite.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:05:03+08:00 ] /jiasp2/Public/pic/n5Sprites.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:05:04+08:00 ] /jiasp2/Public/pic/footerFollowButtons.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:05:13+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T15:05:13+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000493s ]
+[ 2013-04-08T15:05:13+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000587s ]
+[ 2013-04-08T15:05:13+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T15:05:13+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000335s ]
+[ 2013-04-08T15:05:13+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000410s ]
+[ 2013-04-08T15:05:13+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T15:05:13+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.015935s ]
+[ 2013-04-08T15:05:13+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.016024s ]
+[ 2013-04-08T15:05:13+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T15:05:13+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000543s ]
+[ 2013-04-08T15:05:13+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000656s ]
+[ 2013-04-08T15:05:13+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000238s ]
+[ 2013-04-08T15:05:13+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000548s ]
+[ 2013-04-08T15:05:13+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002191s ]
+[ 2013-04-08T15:05:13+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T15:05:13+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000444s ]
+[ 2013-04-08T15:05:13+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000521s ]
+[ 2013-04-08T15:05:16+08:00 ] /jiasp2/Public/pic/black-image-bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:05:16+08:00 ] /jiasp2/Public/pic/n5Sprites.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:05:16+08:00 ] /jiasp2/Public/pic/home_sprite.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:05:16+08:00 ] /jiasp2/Public/pic/n5Bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:05:16+08:00 ] /jiasp2/Public/pic/n5ExpandArrow.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:05:16+08:00 ] /jiasp2/Public/pic/sprite-signUp.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:05:16+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:05:16+08:00 ] /jiasp2/Public/pic/proShadow-middle.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:05:16+08:00 ] /jiasp2/Public/pic/footerFollowButtons.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:08:21+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T15:08:21+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000656s ]
+[ 2013-04-08T15:08:21+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000758s ]
+[ 2013-04-08T15:08:21+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T15:08:21+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000893s ]
+[ 2013-04-08T15:08:21+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000973s ]
+[ 2013-04-08T15:08:21+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T15:08:21+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.022204s ]
+[ 2013-04-08T15:08:21+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.022294s ]
+[ 2013-04-08T15:08:21+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T15:08:21+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000686s ]
+[ 2013-04-08T15:08:21+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000674s ]
+[ 2013-04-08T15:08:21+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000308s ]
+[ 2013-04-08T15:08:21+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000856s ]
+[ 2013-04-08T15:08:21+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002735s ]
+[ 2013-04-08T15:08:21+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T15:08:21+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000645s ]
+[ 2013-04-08T15:08:21+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000747s ]
+[ 2013-04-08T15:08:21+08:00 ] /jiasp2/Public/JS/topicNavigation.js | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:08:21+08:00 ] /jiasp2/Public/JS/home.js | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:08:23+08:00 ] /jiasp2/Public/pic/home_sprite.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:08:23+08:00 ] /jiasp2/Public/pic/n5ExpandArrow.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:08:23+08:00 ] /jiasp2/Public/pic/sprite-signUp.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:08:23+08:00 ] /jiasp2/Public/pic/n5Sprites.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:08:23+08:00 ] /jiasp2/Public/pic/black-image-bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:08:23+08:00 ] /jiasp2/Public/pic/n5Bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:08:23+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:08:23+08:00 ] /jiasp2/Public/pic/proShadow-middle.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:08:24+08:00 ] /jiasp2/Public/pic/footerFollowButtons.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:08:53+08:00 ] /jiasp2/Public/JS/topicNavigation.js | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:08:53+08:00 ] /jiasp2/Public/JS/home.js | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:08:53+08:00 ] /jiasp2/Public/pic/n5Bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:08:53+08:00 ] /jiasp2/Public/pic/n5Sprites.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:08:53+08:00 ] /jiasp2/Public/pic/proShadow-middle.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:08:53+08:00 ] /jiasp2/Public/pic/n5ExpandArrow.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:08:53+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:08:53+08:00 ] /jiasp2/Public/pic/black-image-bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:08:53+08:00 ] /jiasp2/Public/pic/home_sprite.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:08:53+08:00 ] /jiasp2/Public/pic/footerFollowButtons.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:08:53+08:00 ] /jiasp2/Public/pic/sprite-signUp.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:09:51+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T15:09:51+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000494s ]
+[ 2013-04-08T15:09:51+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000592s ]
+[ 2013-04-08T15:09:51+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T15:09:51+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000610s ]
+[ 2013-04-08T15:09:51+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000701s ]
+[ 2013-04-08T15:09:51+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T15:09:51+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.017255s ]
+[ 2013-04-08T15:09:51+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017346s ]
+[ 2013-04-08T15:09:51+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T15:09:51+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000623s ]
+[ 2013-04-08T15:09:51+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000691s ]
+[ 2013-04-08T15:09:51+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000307s ]
+[ 2013-04-08T15:09:51+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.005516s ]
+[ 2013-04-08T15:09:51+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007358s ]
+[ 2013-04-08T15:09:51+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T15:09:51+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000634s ]
+[ 2013-04-08T15:09:51+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000735s ]
+[ 2013-04-08T15:09:51+08:00 ] /jiasp2/Public/JS/topicNavigation.js | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:09:51+08:00 ] /jiasp2/Public/JS/home.js | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:09:54+08:00 ] /jiasp2/Public/pic/n5Bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:09:54+08:00 ] /jiasp2/Public/pic/n5ExpandArrow.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:09:54+08:00 ] /jiasp2/Public/pic/n5Sprites.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:09:55+08:00 ] /jiasp2/Public/pic/home_sprite.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:09:55+08:00 ] /jiasp2/Public/pic/black-image-bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:09:55+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:09:55+08:00 ] /jiasp2/Public/pic/n5Sprites.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:09:55+08:00 ] /jiasp2/Public/pic/footerFollowButtons.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:09:55+08:00 ] /jiasp2/Public/pic/sprite-signUp.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:09:55+08:00 ] /jiasp2/Public/pic/proShadow-middle.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:21+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T15:14:21+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000645s ]
+[ 2013-04-08T15:14:21+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000738s ]
+[ 2013-04-08T15:14:21+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T15:14:21+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000606s ]
+[ 2013-04-08T15:14:21+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000683s ]
+[ 2013-04-08T15:14:21+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T15:14:21+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.017743s ]
+[ 2013-04-08T15:14:21+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017827s ]
+[ 2013-04-08T15:14:21+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T15:14:21+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000611s ]
+[ 2013-04-08T15:14:21+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000650s ]
+[ 2013-04-08T15:14:21+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000533s ]
+[ 2013-04-08T15:14:21+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000592s ]
+[ 2013-04-08T15:14:21+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002584s ]
+[ 2013-04-08T15:14:21+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T15:14:21+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000581s ]
+[ 2013-04-08T15:14:21+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000663s ]
+[ 2013-04-08T15:14:21+08:00 ] /jiasp2/Public/CSS/1.css | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:21+08:00 ] /jiasp2/Public/JS/topicNavigation.js | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:21+08:00 ] /jiasp2/Public/JS/home.js | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:23+08:00 ] /jiasp2/Public/pic/n5Bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:23+08:00 ] /jiasp2/Public/pic/n5Sprites.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:23+08:00 ] /jiasp2/Public/pic/n5ExpandArrow.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:23+08:00 ] /jiasp2/Public/pic/black-image-bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:23+08:00 ] /jiasp2/Public/pic/home_sprite.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:23+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:23+08:00 ] /jiasp2/Public/pic/sprite-signUp.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:23+08:00 ] /jiasp2/Public/pic/proShadow-middle.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:35+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T15:14:35+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000489s ]
+[ 2013-04-08T15:14:35+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000577s ]
+[ 2013-04-08T15:14:35+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T15:14:35+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000346s ]
+[ 2013-04-08T15:14:35+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000428s ]
+[ 2013-04-08T15:14:35+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T15:14:35+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.016570s ]
+[ 2013-04-08T15:14:35+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.016658s ]
+[ 2013-04-08T15:14:35+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T15:14:35+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000540s ]
+[ 2013-04-08T15:14:35+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000578s ]
+[ 2013-04-08T15:14:35+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000229s ]
+[ 2013-04-08T15:14:35+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000484s ]
+[ 2013-04-08T15:14:35+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002024s ]
+[ 2013-04-08T15:14:36+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T15:14:36+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000522s ]
+[ 2013-04-08T15:14:36+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000617s ]
+[ 2013-04-08T15:14:36+08:00 ] /jiasp2/Public/CSS/1.css | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:36+08:00 ] /jiasp2/Public/JS/topicNavigation.js | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:36+08:00 ] /jiasp2/Public/JS/home.js | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:37+08:00 ] /jiasp2/Public/pic/n5Bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:37+08:00 ] /jiasp2/Public/pic/n5Sprites.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:37+08:00 ] /jiasp2/Public/pic/n5ExpandArrow.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:38+08:00 ] /jiasp2/Public/pic/home_sprite.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:38+08:00 ] /jiasp2/Public/pic/black-image-bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:38+08:00 ] /jiasp2/Public/pic/sprite-signUp.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:38+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:38+08:00 ] /jiasp2/Public/pic/proShadow-middle.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:42+08:00 ] /jiasp2/Public/JS/home.js | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:42+08:00 ] /jiasp2/Public/CSS/1.css | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:42+08:00 ] /jiasp2/Public/JS/topicNavigation.js | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:42+08:00 ] /jiasp2/Public/pic/n5Sprites.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:42+08:00 ] /jiasp2/Public/pic/n5ExpandArrow.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:42+08:00 ] /jiasp2/Public/pic/n5Bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:42+08:00 ] /jiasp2/Public/pic/black-image-bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:42+08:00 ] /jiasp2/Public/pic/home_sprite.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:42+08:00 ] /jiasp2/Public/pic/proShadow-middle.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:42+08:00 ] /jiasp2/Public/pic/sprite-signUp.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:14:42+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:15:28+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T15:15:28+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000572s ]
+[ 2013-04-08T15:15:28+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000667s ]
+[ 2013-04-08T15:15:28+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T15:15:28+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000590s ]
+[ 2013-04-08T15:15:28+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000671s ]
+[ 2013-04-08T15:15:28+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T15:15:28+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.017530s ]
+[ 2013-04-08T15:15:28+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017622s ]
+[ 2013-04-08T15:15:28+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T15:15:28+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000643s ]
+[ 2013-04-08T15:15:28+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000670s ]
+[ 2013-04-08T15:15:28+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000309s ]
+[ 2013-04-08T15:15:28+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000591s ]
+[ 2013-04-08T15:15:28+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002432s ]
+[ 2013-04-08T15:15:28+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T15:15:28+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000616s ]
+[ 2013-04-08T15:15:28+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000728s ]
+[ 2013-04-08T15:15:28+08:00 ] /jiasp2/Public/CSS/1.css | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:15:28+08:00 ] /jiasp2/Public/JS/home.js | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:15:28+08:00 ] /jiasp2/Public/JS/topicNavigation.js | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:15:31+08:00 ] /jiasp2/Public/pic/n5Bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:15:31+08:00 ] /jiasp2/Public/pic/home_sprite.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:15:31+08:00 ] /jiasp2/Public/pic/n5Sprites.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:15:31+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:15:31+08:00 ] /jiasp2/Public/pic/n5ExpandArrow.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:15:31+08:00 ] /jiasp2/Public/pic/sprite-signUp.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:15:31+08:00 ] /jiasp2/Public/pic/black-image-bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:15:31+08:00 ] /jiasp2/Public/pic/proShadow-middle.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:17:24+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T15:17:24+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000702s ]
+[ 2013-04-08T15:17:24+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000793s ]
+[ 2013-04-08T15:17:24+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T15:17:24+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000719s ]
+[ 2013-04-08T15:17:24+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000794s ]
+[ 2013-04-08T15:17:24+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T15:17:24+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.018523s ]
+[ 2013-04-08T15:17:24+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018610s ]
+[ 2013-04-08T15:17:24+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T15:17:24+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000798s ]
+[ 2013-04-08T15:17:24+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000736s ]
+[ 2013-04-08T15:17:24+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000366s ]
+[ 2013-04-08T15:17:24+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000633s ]
+[ 2013-04-08T15:17:24+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002736s ]
+[ 2013-04-08T15:17:24+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T15:17:24+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000609s ]
+[ 2013-04-08T15:17:24+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000690s ]
+[ 2013-04-08T15:17:24+08:00 ] /jiasp2/Public/JS/topicNavigation.js | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:17:24+08:00 ] /jiasp2/Public/JS/home.js | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:17:26+08:00 ] /jiasp2/Public/pic/n5Bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:17:26+08:00 ] /jiasp2/Public/pic/n5Sprites.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:17:26+08:00 ] /jiasp2/Public/pic/sprite-signUp.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:17:26+08:00 ] /jiasp2/Public/pic/proShadow-middle.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:17:26+08:00 ] /jiasp2/Public/pic/n5ExpandArrow.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:17:26+08:00 ] /jiasp2/Public/pic/home_sprite.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:17:26+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:17:26+08:00 ] /jiasp2/Public/pic/black-image-bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:17:26+08:00 ] /jiasp2/Public/pic/footerFollowButtons.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:18:03+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T15:18:03+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000641s ]
+[ 2013-04-08T15:18:03+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000739s ]
+[ 2013-04-08T15:18:03+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T15:18:03+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000679s ]
+[ 2013-04-08T15:18:03+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000757s ]
+[ 2013-04-08T15:18:03+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T15:18:03+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.017380s ]
+[ 2013-04-08T15:18:03+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017470s ]
+[ 2013-04-08T15:18:03+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T15:18:03+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000724s ]
+[ 2013-04-08T15:18:03+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000737s ]
+[ 2013-04-08T15:18:03+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000372s ]
+[ 2013-04-08T15:18:03+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000714s ]
+[ 2013-04-08T15:18:03+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002762s ]
+[ 2013-04-08T15:18:03+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T15:18:03+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000566s ]
+[ 2013-04-08T15:18:03+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000648s ]
+[ 2013-04-08T15:18:03+08:00 ] /jiasp2/Public/JS/home.js | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:18:03+08:00 ] /jiasp2/Public/JS/topicNavigation.js | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:18:05+08:00 ] /jiasp2/Public/pic/n5Bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:18:05+08:00 ] /jiasp2/Public/pic/home_sprite.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:18:05+08:00 ] /jiasp2/Public/pic/sprite-signUp.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:18:06+08:00 ] /jiasp2/Public/pic/n5Sprites.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:18:06+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:18:06+08:00 ] /jiasp2/Public/pic/n5ExpandArrow.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:18:06+08:00 ] /jiasp2/Public/pic/black-image-bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:18:06+08:00 ] /jiasp2/Public/pic/proShadow-middle.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:18:06+08:00 ] /jiasp2/Public/pic/footerFollowButtons.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:19:01+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T15:19:01+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000635s ]
+[ 2013-04-08T15:19:01+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000732s ]
+[ 2013-04-08T15:19:01+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T15:19:01+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000686s ]
+[ 2013-04-08T15:19:01+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000857s ]
+[ 2013-04-08T15:19:01+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T15:19:01+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.017232s ]
+[ 2013-04-08T15:19:01+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017320s ]
+[ 2013-04-08T15:19:01+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T15:19:01+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000872s ]
+[ 2013-04-08T15:19:01+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000710s ]
+[ 2013-04-08T15:19:01+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000425s ]
+[ 2013-04-08T15:19:01+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000717s ]
+[ 2013-04-08T15:19:01+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003048s ]
+[ 2013-04-08T15:19:01+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T15:19:01+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000566s ]
+[ 2013-04-08T15:19:01+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000649s ]
+[ 2013-04-08T15:19:01+08:00 ] /jiasp2/Public/JS/topicNavigation.js | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:19:01+08:00 ] /jiasp2/Public/JS/home.js | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:19:03+08:00 ] /jiasp2/Public/pic/home_sprite.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:19:03+08:00 ] /jiasp2/Public/pic/n5Sprites.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:19:03+08:00 ] /jiasp2/Public/pic/n5Bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:19:03+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:19:03+08:00 ] /jiasp2/Public/pic/black-image-bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:19:03+08:00 ] /jiasp2/Public/pic/n5ExpandArrow.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:19:03+08:00 ] /jiasp2/Public/pic/sprite-signUp.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:19:03+08:00 ] /jiasp2/Public/pic/proShadow-middle.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:19:03+08:00 ] /jiasp2/Public/pic/footerFollowButtons.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:22:16+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T15:22:16+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000679s ]
+[ 2013-04-08T15:22:16+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000776s ]
+[ 2013-04-08T15:22:16+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T15:22:16+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000616s ]
+[ 2013-04-08T15:22:16+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000700s ]
+[ 2013-04-08T15:22:16+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T15:22:16+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.016429s ]
+[ 2013-04-08T15:22:16+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.016515s ]
+[ 2013-04-08T15:22:16+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T15:22:16+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000639s ]
+[ 2013-04-08T15:22:16+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000652s ]
+[ 2013-04-08T15:22:16+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000303s ]
+[ 2013-04-08T15:22:16+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000731s ]
+[ 2013-04-08T15:22:16+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002524s ]
+[ 2013-04-08T15:22:16+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T15:22:16+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000644s ]
+[ 2013-04-08T15:22:16+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000737s ]
+[ 2013-04-08T15:22:16+08:00 ] /jiasp2/Public/JS/topicNavigation.js | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:22:16+08:00 ] /jiasp2/Public/JS/home.js | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:22:19+08:00 ] /jiasp2/Public/pic/n5Bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:22:19+08:00 ] /jiasp2/Public/pic/n5Sprites.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:22:19+08:00 ] /jiasp2/Public/pic/n5ExpandArrow.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:22:19+08:00 ] /jiasp2/Public/pic/black-image-bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:22:19+08:00 ] /jiasp2/Public/pic/proShadow-middle.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:22:19+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:22:19+08:00 ] /jiasp2/Public/pic/home_sprite.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:22:19+08:00 ] /jiasp2/Public/pic/sprite-signUp.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:22:20+08:00 ] /jiasp2/Public/pic/footerFollowButtons.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:24:16+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T15:24:16+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000525s ]
+[ 2013-04-08T15:24:16+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000626s ]
+[ 2013-04-08T15:24:16+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T15:24:16+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000366s ]
+[ 2013-04-08T15:24:16+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000446s ]
+[ 2013-04-08T15:24:16+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T15:24:16+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.015870s ]
+[ 2013-04-08T15:24:16+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.015963s ]
+[ 2013-04-08T15:24:16+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T15:24:16+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000567s ]
+[ 2013-04-08T15:24:16+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000624s ]
+[ 2013-04-08T15:24:16+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000264s ]
+[ 2013-04-08T15:24:16+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000596s ]
+[ 2013-04-08T15:24:16+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002276s ]
+[ 2013-04-08T15:24:16+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T15:24:16+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000617s ]
+[ 2013-04-08T15:24:16+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000743s ]
+[ 2013-04-08T15:24:18+08:00 ] /jiasp2/Public/pic/n5ExpandArrow.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:24:18+08:00 ] /jiasp2/Public/pic/n5Sprites.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:24:18+08:00 ] /jiasp2/Public/pic/sprite-signUp.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:24:18+08:00 ] /jiasp2/Public/pic/black-image-bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:24:18+08:00 ] /jiasp2/Public/pic/n5Bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:24:18+08:00 ] /jiasp2/Public/pic/home_sprite.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:24:18+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:24:18+08:00 ] /jiasp2/Public/pic/proShadow-middle.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:24:18+08:00 ] /jiasp2/Public/pic/footerFollowButtons.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:24:55+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T15:24:55+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000676s ]
+[ 2013-04-08T15:24:55+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000778s ]
+[ 2013-04-08T15:24:55+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T15:24:55+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000686s ]
+[ 2013-04-08T15:24:55+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000767s ]
+[ 2013-04-08T15:24:55+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T15:24:55+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.016901s ]
+[ 2013-04-08T15:24:55+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.016995s ]
+[ 2013-04-08T15:24:55+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T15:24:55+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000688s ]
+[ 2013-04-08T15:24:55+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000740s ]
+[ 2013-04-08T15:24:55+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000375s ]
+[ 2013-04-08T15:24:55+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000643s ]
+[ 2013-04-08T15:24:55+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002664s ]
+[ 2013-04-08T15:24:55+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T15:24:55+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000739s ]
+[ 2013-04-08T15:24:55+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000826s ]
+[ 2013-04-08T15:24:56+08:00 ] /jiasp2/Public/pic/n5ExpandArrow.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:24:56+08:00 ] /jiasp2/Public/pic/black-image-bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:24:56+08:00 ] /jiasp2/Public/pic/home_sprite.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:24:56+08:00 ] /jiasp2/Public/pic/n5Bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:24:56+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:24:56+08:00 ] /jiasp2/Public/pic/n5Sprites.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:24:56+08:00 ] /jiasp2/Public/pic/sprite-signUp.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:24:56+08:00 ] /jiasp2/Public/pic/proShadow-middle.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:24:57+08:00 ] /jiasp2/Public/pic/footerFollowButtons.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:37:34+08:00 ] /jiasp2/Public/pic/n5Bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:37:34+08:00 ] /jiasp2/Public/pic/n5Sprites.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:37:34+08:00 ] /jiasp2/Public/pic/n5ExpandArrow.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:37:34+08:00 ] /jiasp2/Public/pic/black-image-bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:37:34+08:00 ] /jiasp2/Public/pic/proShadow-middle.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:37:34+08:00 ] /jiasp2/Public/pic/footerFollowButtons.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:37:34+08:00 ] /jiasp2/Public/pic/home_sprite.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:37:34+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T15:37:34+08:00 ] /jiasp2/Public/pic/sprite-signUp.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:25:22+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T22:25:22+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000836s ]
+[ 2013-04-08T22:25:22+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000957s ]
+[ 2013-04-08T22:25:22+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T22:25:22+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000812s ]
+[ 2013-04-08T22:25:22+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000888s ]
+[ 2013-04-08T22:25:22+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T22:25:22+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.019423s ]
+[ 2013-04-08T22:25:22+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.019514s ]
+[ 2013-04-08T22:25:22+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T22:25:22+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000818s ]
+[ 2013-04-08T22:25:22+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000877s ]
+[ 2013-04-08T22:25:22+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000466s ]
+[ 2013-04-08T22:25:22+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000759s ]
+[ 2013-04-08T22:25:22+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003125s ]
+[ 2013-04-08T22:25:22+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T22:25:22+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000738s ]
+[ 2013-04-08T22:25:22+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000821s ]
+[ 2013-04-08T22:25:29+08:00 ] /jiasp2/Public/pic/n5Bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:25:29+08:00 ] /jiasp2/Public/pic/n5Sprites.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:25:29+08:00 ] /jiasp2/Public/pic/black-image-bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:25:29+08:00 ] /jiasp2/Public/pic/n5ExpandArrow.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:25:29+08:00 ] /jiasp2/Public/pic/proShadow-middle.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:25:29+08:00 ] /jiasp2/Public/pic/home_sprite.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:25:29+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:25:29+08:00 ] /jiasp2/Public/pic/sprite-signUp.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:25:30+08:00 ] /jiasp2/Public/pic/footerFollowButtons.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:26:03+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T22:26:03+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000694s ]
+[ 2013-04-08T22:26:03+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000781s ]
+[ 2013-04-08T22:26:03+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T22:26:03+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000836s ]
+[ 2013-04-08T22:26:03+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000911s ]
+[ 2013-04-08T22:26:03+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T22:26:03+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.018744s ]
+[ 2013-04-08T22:26:03+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018828s ]
+[ 2013-04-08T22:26:03+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T22:26:03+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000777s ]
+[ 2013-04-08T22:26:03+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000820s ]
+[ 2013-04-08T22:26:03+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000437s ]
+[ 2013-04-08T22:26:03+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.005834s ]
+[ 2013-04-08T22:26:03+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.008082s ]
+[ 2013-04-08T22:26:03+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T22:26:03+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000748s ]
+[ 2013-04-08T22:26:03+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000833s ]
+[ 2013-04-08T22:26:06+08:00 ] /jiasp2/Public/pic/n5Bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:26:06+08:00 ] /jiasp2/Public/pic/n5Sprites.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:26:06+08:00 ] /jiasp2/Public/pic/sprite-signUp.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:26:06+08:00 ] /jiasp2/Public/pic/proShadow-middle.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:26:06+08:00 ] /jiasp2/Public/pic/n5ExpandArrow.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:26:06+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:26:06+08:00 ] /jiasp2/Public/pic/black-image-bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:26:06+08:00 ] /jiasp2/Public/pic/home_sprite.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:26:08+08:00 ] /jiasp2/Public/pic/footerFollowButtons.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:26:17+08:00 ] /jiasp2/Public/pic/n5Bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:26:17+08:00 ] /jiasp2/Public/pic/n5Sprites.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:26:17+08:00 ] /jiasp2/Public/pic/n5ExpandArrow.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:26:17+08:00 ] /jiasp2/Public/pic/black-image-bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:26:17+08:00 ] /jiasp2/Public/pic/home_sprite.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:26:17+08:00 ] /jiasp2/Public/pic/sprite-signUp.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:26:17+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:26:17+08:00 ] /jiasp2/Public/pic/proShadow-middle.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:26:17+08:00 ] /jiasp2/Public/pic/footerFollowButtons.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:26:36+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T22:26:36+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002889s ]
+[ 2013-04-08T22:26:36+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.003004s ]
+[ 2013-04-08T22:26:36+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T22:26:36+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000883s ]
+[ 2013-04-08T22:26:36+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000976s ]
+[ 2013-04-08T22:26:36+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T22:26:36+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.019053s ]
+[ 2013-04-08T22:26:36+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.019139s ]
+[ 2013-04-08T22:26:36+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T22:26:36+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000902s ]
+[ 2013-04-08T22:26:36+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000841s ]
+[ 2013-04-08T22:26:36+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000440s ]
+[ 2013-04-08T22:26:36+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000722s ]
+[ 2013-04-08T22:26:36+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003131s ]
+[ 2013-04-08T22:26:36+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T22:26:36+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000646s ]
+[ 2013-04-08T22:26:36+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000726s ]
+[ 2013-04-08T22:26:38+08:00 ] /jiasp2/Public/pic/n5Bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:26:38+08:00 ] /jiasp2/Public/pic/n5Sprites.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:26:38+08:00 ] /jiasp2/Public/pic/n5ExpandArrow.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:26:38+08:00 ] /jiasp2/Public/pic/black-image-bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:26:38+08:00 ] /jiasp2/Public/pic/home_sprite.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:26:38+08:00 ] /jiasp2/Public/pic/sprite-signUp.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:26:38+08:00 ] /jiasp2/Public/pic/proShadow-middle.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:26:38+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:26:43+08:00 ] /jiasp2/Public/pic/footerFollowButtons.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:27:46+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T22:27:46+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000828s ]
+[ 2013-04-08T22:27:46+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000926s ]
+[ 2013-04-08T22:27:46+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T22:27:46+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000822s ]
+[ 2013-04-08T22:27:46+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000900s ]
+[ 2013-04-08T22:27:46+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T22:27:46+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.018089s ]
+[ 2013-04-08T22:27:46+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018174s ]
+[ 2013-04-08T22:27:46+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T22:27:46+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000985s ]
+[ 2013-04-08T22:27:46+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000816s ]
+[ 2013-04-08T22:27:46+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000435s ]
+[ 2013-04-08T22:27:46+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000735s ]
+[ 2013-04-08T22:27:46+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003173s ]
+[ 2013-04-08T22:27:46+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T22:27:46+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000708s ]
+[ 2013-04-08T22:27:46+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000788s ]
+[ 2013-04-08T22:27:48+08:00 ] /jiasp2/Public/pic/n5Bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:27:48+08:00 ] /jiasp2/Public/pic/n5Sprites.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:27:48+08:00 ] /jiasp2/Public/pic/n5ExpandArrow.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:27:48+08:00 ] /jiasp2/Public/pic/home_sprite.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:27:48+08:00 ] /jiasp2/Public/pic/black-image-bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:27:48+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:27:48+08:00 ] /jiasp2/Public/pic/sprite-signUp.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:27:48+08:00 ] /jiasp2/Public/pic/proShadow-middle.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:27:54+08:00 ] /jiasp2/Public/pic/footerFollowButtons.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:28:35+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T22:28:35+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000723s ]
+[ 2013-04-08T22:28:35+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000818s ]
+[ 2013-04-08T22:28:35+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T22:28:35+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000864s ]
+[ 2013-04-08T22:28:35+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000948s ]
+[ 2013-04-08T22:28:35+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T22:28:35+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.017294s ]
+[ 2013-04-08T22:28:35+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017384s ]
+[ 2013-04-08T22:28:35+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T22:28:35+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000823s ]
+[ 2013-04-08T22:28:35+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000855s ]
+[ 2013-04-08T22:28:35+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000473s ]
+[ 2013-04-08T22:28:35+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000730s ]
+[ 2013-04-08T22:28:35+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003082s ]
+[ 2013-04-08T22:28:35+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T22:28:35+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000766s ]
+[ 2013-04-08T22:28:35+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000853s ]
+[ 2013-04-08T22:28:44+08:00 ] /jiasp2/Public/pic/n5Bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:28:44+08:00 ] /jiasp2/Public/pic/black-image-bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:28:44+08:00 ] /jiasp2/Public/pic/n5ExpandArrow.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:28:44+08:00 ] /jiasp2/Public/pic/n5Sprites.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:28:44+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:28:44+08:00 ] /jiasp2/Public/pic/sprite-signUp.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:28:44+08:00 ] /jiasp2/Public/pic/home_sprite.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:28:44+08:00 ] /jiasp2/Public/pic/proShadow-middle.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:28:45+08:00 ] /jiasp2/Public/pic/footerFollowButtons.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:29:56+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T22:29:56+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000773s ]
+[ 2013-04-08T22:29:56+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000865s ]
+[ 2013-04-08T22:29:56+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T22:29:56+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000839s ]
+[ 2013-04-08T22:29:56+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000912s ]
+[ 2013-04-08T22:29:56+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T22:29:56+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.016856s ]
+[ 2013-04-08T22:29:56+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.016939s ]
+[ 2013-04-08T22:29:56+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T22:29:56+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.005802s ]
+[ 2013-04-08T22:29:56+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.001042s ]
+[ 2013-04-08T22:29:56+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000476s ]
+[ 2013-04-08T22:29:56+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000745s ]
+[ 2013-04-08T22:29:56+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.008293s ]
+[ 2013-04-08T22:29:56+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T22:29:56+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000777s ]
+[ 2013-04-08T22:29:56+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000887s ]
+[ 2013-04-08T22:30:03+08:00 ] /jiasp2/Public/pic/n5Bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:30:03+08:00 ] /jiasp2/Public/pic/black-image-bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:30:03+08:00 ] /jiasp2/Public/pic/n5Sprites.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:30:03+08:00 ] /jiasp2/Public/pic/n5ExpandArrow.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:30:03+08:00 ] /jiasp2/Public/pic/home_sprite.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:30:03+08:00 ] /jiasp2/Public/pic/sprite-signUp.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:30:03+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:30:03+08:00 ] /jiasp2/Public/pic/proShadow-middle.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:30:05+08:00 ] /jiasp2/Public/pic/footerFollowButtons.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:33:13+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T22:33:13+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000771s ]
+[ 2013-04-08T22:33:13+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000869s ]
+[ 2013-04-08T22:33:13+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T22:33:13+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000763s ]
+[ 2013-04-08T22:33:13+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000836s ]
+[ 2013-04-08T22:33:13+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T22:33:13+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.020101s ]
+[ 2013-04-08T22:33:13+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.020192s ]
+[ 2013-04-08T22:33:13+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T22:33:13+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.001004s ]
+[ 2013-04-08T22:33:13+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000905s ]
+[ 2013-04-08T22:33:13+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000512s ]
+[ 2013-04-08T22:33:13+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000719s ]
+[ 2013-04-08T22:33:13+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003372s ]
+[ 2013-04-08T22:33:13+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T22:33:13+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000695s ]
+[ 2013-04-08T22:33:13+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000777s ]
+[ 2013-04-08T22:34:33+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T22:34:33+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000726s ]
+[ 2013-04-08T22:34:33+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000820s ]
+[ 2013-04-08T22:34:33+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T22:34:33+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000676s ]
+[ 2013-04-08T22:34:33+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000764s ]
+[ 2013-04-08T22:34:33+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T22:34:33+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.018883s ]
+[ 2013-04-08T22:34:33+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018971s ]
+[ 2013-04-08T22:34:33+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T22:34:33+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000790s ]
+[ 2013-04-08T22:34:33+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000838s ]
+[ 2013-04-08T22:34:33+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000482s ]
+[ 2013-04-08T22:34:33+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000707s ]
+[ 2013-04-08T22:34:33+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003034s ]
+[ 2013-04-08T22:34:33+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T22:34:33+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000714s ]
+[ 2013-04-08T22:34:33+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000799s ]
+[ 2013-04-08T22:34:36+08:00 ] /jiasp2/Public/pic/n5ExpandArrow.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:34:36+08:00 ] /jiasp2/Public/pic/n5Sprites.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:34:36+08:00 ] /jiasp2/Public/pic/n5Bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:34:36+08:00 ] /jiasp2/Public/pic/home_sprite.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:34:36+08:00 ] /jiasp2/Public/pic/black-image-bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:34:36+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:34:36+08:00 ] /jiasp2/Public/pic/sprite-signUp.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:34:36+08:00 ] /jiasp2/Public/pic/proShadow-middle.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:34:37+08:00 ] /jiasp2/Public/pic/footerFollowButtons.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:35:45+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T22:35:45+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000787s ]
+[ 2013-04-08T22:35:45+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000884s ]
+[ 2013-04-08T22:35:45+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T22:35:45+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000790s ]
+[ 2013-04-08T22:35:45+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000877s ]
+[ 2013-04-08T22:35:45+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T22:35:45+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.027385s ]
+[ 2013-04-08T22:35:45+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.027473s ]
+[ 2013-04-08T22:35:45+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T22:35:45+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000771s ]
+[ 2013-04-08T22:35:45+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000931s ]
+[ 2013-04-08T22:35:45+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000496s ]
+[ 2013-04-08T22:35:45+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000710s ]
+[ 2013-04-08T22:35:45+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003106s ]
+[ 2013-04-08T22:35:45+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T22:35:45+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000886s ]
+[ 2013-04-08T22:35:45+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000981s ]
+[ 2013-04-08T22:35:50+08:00 ] /jiasp2/Public/pic/n5Bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:35:50+08:00 ] /jiasp2/Public/pic/n5Sprites.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:35:50+08:00 ] /jiasp2/Public/pic/n5ExpandArrow.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:35:50+08:00 ] /jiasp2/Public/pic/black-image-bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:35:50+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:35:50+08:00 ] /jiasp2/Public/pic/home_sprite.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:35:50+08:00 ] /jiasp2/Public/pic/sprite-signUp.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:35:50+08:00 ] /jiasp2/Public/pic/proShadow-middle.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:35:52+08:00 ] /jiasp2/Public/pic/footerFollowButtons.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:44:01+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T22:44:01+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002299s ]
+[ 2013-04-08T22:44:01+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002402s ]
+[ 2013-04-08T22:44:01+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T22:44:01+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000814s ]
+[ 2013-04-08T22:44:01+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000888s ]
+[ 2013-04-08T22:44:01+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T22:44:01+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.017358s ]
+[ 2013-04-08T22:44:01+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017443s ]
+[ 2013-04-08T22:44:01+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T22:44:01+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000816s ]
+[ 2013-04-08T22:44:01+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000834s ]
+[ 2013-04-08T22:44:01+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000460s ]
+[ 2013-04-08T22:44:01+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000852s ]
+[ 2013-04-08T22:44:01+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003164s ]
+[ 2013-04-08T22:44:01+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T22:44:01+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000769s ]
+[ 2013-04-08T22:44:01+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000854s ]
+[ 2013-04-08T22:44:08+08:00 ] /jiasp2/Public/pic/n5ExpandArrow.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:44:08+08:00 ] /jiasp2/Public/pic/n5Sprites.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:44:08+08:00 ] /jiasp2/Public/pic/n5Bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:44:08+08:00 ] /jiasp2/Public/pic/black-image-bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:44:08+08:00 ] /jiasp2/Public/pic/home_sprite.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:44:08+08:00 ] /jiasp2/Public/pic/sprite-signUp.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:44:09+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:44:09+08:00 ] /jiasp2/Public/pic/proShadow-middle.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:45:34+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T22:45:34+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000718s ]
+[ 2013-04-08T22:45:34+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000815s ]
+[ 2013-04-08T22:45:34+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T22:45:34+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000864s ]
+[ 2013-04-08T22:45:34+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000954s ]
+[ 2013-04-08T22:45:34+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T22:45:34+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.018241s ]
+[ 2013-04-08T22:45:34+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018327s ]
+[ 2013-04-08T22:45:34+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T22:45:34+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.001991s ]
+[ 2013-04-08T22:45:34+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000917s ]
+[ 2013-04-08T22:45:34+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000441s ]
+[ 2013-04-08T22:45:34+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000708s ]
+[ 2013-04-08T22:45:34+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004272s ]
+[ 2013-04-08T22:45:34+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T22:45:34+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000699s ]
+[ 2013-04-08T22:45:34+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000789s ]
+[ 2013-04-08T22:45:39+08:00 ] /jiasp2/Public/pic/n5Bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:45:39+08:00 ] /jiasp2/Public/pic/n5ExpandArrow.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:45:39+08:00 ] /jiasp2/Public/pic/n5Sprites.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:45:39+08:00 ] /jiasp2/Public/pic/black-image-bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:45:39+08:00 ] /jiasp2/Public/pic/proShadow-middle.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:45:39+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:45:39+08:00 ] /jiasp2/Public/pic/sprite-signUp.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:45:59+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T22:45:59+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000784s ]
+[ 2013-04-08T22:45:59+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000937s ]
+[ 2013-04-08T22:45:59+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T22:45:59+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000878s ]
+[ 2013-04-08T22:45:59+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000963s ]
+[ 2013-04-08T22:45:59+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T22:45:59+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.017215s ]
+[ 2013-04-08T22:45:59+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017302s ]
+[ 2013-04-08T22:45:59+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T22:45:59+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000803s ]
+[ 2013-04-08T22:45:59+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000819s ]
+[ 2013-04-08T22:45:59+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000466s ]
+[ 2013-04-08T22:45:59+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000716s ]
+[ 2013-04-08T22:45:59+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003009s ]
+[ 2013-04-08T22:45:59+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T22:45:59+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000728s ]
+[ 2013-04-08T22:45:59+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000829s ]
+[ 2013-04-08T22:46:04+08:00 ] /jiasp2/Public/pic/n5Bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:46:04+08:00 ] /jiasp2/Public/pic/n5Sprites.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:46:04+08:00 ] /jiasp2/Public/pic/n5ExpandArrow.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:46:04+08:00 ] /jiasp2/Public/pic/black-image-bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:46:04+08:00 ] /jiasp2/Public/pic/sprite-signUp.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:46:04+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:46:04+08:00 ] /jiasp2/Public/pic/proShadow-middle.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:46:18+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T22:46:18+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000746s ]
+[ 2013-04-08T22:46:18+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000834s ]
+[ 2013-04-08T22:46:18+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T22:46:18+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.001089s ]
+[ 2013-04-08T22:46:18+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.001167s ]
+[ 2013-04-08T22:46:18+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T22:46:18+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.018895s ]
+[ 2013-04-08T22:46:18+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018980s ]
+[ 2013-04-08T22:46:18+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T22:46:18+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.002085s ]
+[ 2013-04-08T22:46:18+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000820s ]
+[ 2013-04-08T22:46:18+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000445s ]
+[ 2013-04-08T22:46:18+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000707s ]
+[ 2013-04-08T22:46:18+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004264s ]
+[ 2013-04-08T22:46:18+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T22:46:18+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000686s ]
+[ 2013-04-08T22:46:18+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000766s ]
+[ 2013-04-08T22:46:21+08:00 ] /jiasp2/Public/pic/n5Bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:46:21+08:00 ] /jiasp2/Public/pic/n5Sprites.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:46:21+08:00 ] /jiasp2/Public/pic/black-image-bg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:46:21+08:00 ] /jiasp2/Public/pic/n5ExpandArrow.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:46:21+08:00 ] /jiasp2/Public/pic/sprite-signUp.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:46:21+08:00 ] /jiasp2/Public/pic/proShadow-middle.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:46:21+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:51:38+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T22:51:38+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001416s ]
+[ 2013-04-08T22:51:38+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001515s ]
+[ 2013-04-08T22:51:38+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T22:51:38+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000803s ]
+[ 2013-04-08T22:51:38+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000877s ]
+[ 2013-04-08T22:51:38+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T22:51:38+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.018437s ]
+[ 2013-04-08T22:51:38+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018532s ]
+[ 2013-04-08T22:51:38+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T22:51:38+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000871s ]
+[ 2013-04-08T22:51:38+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000817s ]
+[ 2013-04-08T22:51:38+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000481s ]
+[ 2013-04-08T22:51:38+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000764s ]
+[ 2013-04-08T22:51:38+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003149s ]
+[ 2013-04-08T22:51:38+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T22:51:38+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000764s ]
+[ 2013-04-08T22:51:38+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000857s ]
+[ 2013-04-08T22:51:44+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:51:44+08:00 ] /jiasp2/Public/pic/sprite-signUp.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:51:44+08:00 ] /jiasp2/Public/pic/proShadow-middle.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:53:38+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T22:53:38+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000784s ]
+[ 2013-04-08T22:53:38+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000882s ]
+[ 2013-04-08T22:53:38+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T22:53:38+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000864s ]
+[ 2013-04-08T22:53:38+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000942s ]
+[ 2013-04-08T22:53:38+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T22:53:38+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.018527s ]
+[ 2013-04-08T22:53:38+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018610s ]
+[ 2013-04-08T22:53:38+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T22:53:38+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000785s ]
+[ 2013-04-08T22:53:38+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.002644s ]
+[ 2013-04-08T22:53:38+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000511s ]
+[ 2013-04-08T22:53:38+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000762s ]
+[ 2013-04-08T22:53:38+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004913s ]
+[ 2013-04-08T22:53:38+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T22:53:38+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000652s ]
+[ 2013-04-08T22:53:38+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000729s ]
+[ 2013-04-08T22:53:41+08:00 ] /jiasp2/Public/pic/sprite-signUp.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T22:59:10+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T22:59:10+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000764s ]
+[ 2013-04-08T22:59:10+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000862s ]
+[ 2013-04-08T22:59:11+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T22:59:11+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.001468s ]
+[ 2013-04-08T22:59:11+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.001564s ]
+[ 2013-04-08T22:59:11+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T22:59:11+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.020680s ]
+[ 2013-04-08T22:59:11+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.020811s ]
+[ 2013-04-08T22:59:11+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T22:59:11+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000843s ]
+[ 2013-04-08T22:59:11+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000799s ]
+[ 2013-04-08T22:59:11+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000438s ]
+[ 2013-04-08T22:59:11+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000798s ]
+[ 2013-04-08T22:59:11+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003090s ]
+[ 2013-04-08T22:59:11+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T22:59:11+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000738s ]
+[ 2013-04-08T22:59:11+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000831s ]
+[ 2013-04-08T22:59:14+08:00 ] /jiasp2/Public/pic/sprite-signUp.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T23:08:21+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T23:08:21+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.006445s ]
+[ 2013-04-08T23:08:21+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.006554s ]
+[ 2013-04-08T23:08:21+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T23:08:21+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000854s ]
+[ 2013-04-08T23:08:21+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000934s ]
+[ 2013-04-08T23:08:21+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T23:08:21+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.017464s ]
+[ 2013-04-08T23:08:21+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017554s ]
+[ 2013-04-08T23:08:21+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T23:08:21+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000763s ]
+[ 2013-04-08T23:08:21+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000793s ]
+[ 2013-04-08T23:08:21+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000435s ]
+[ 2013-04-08T23:08:21+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000713s ]
+[ 2013-04-08T23:08:21+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002909s ]
+[ 2013-04-08T23:08:21+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T23:08:21+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000772s ]
+[ 2013-04-08T23:08:21+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000870s ]
+[ 2013-04-08T23:08:55+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T23:08:55+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000736s ]
+[ 2013-04-08T23:08:55+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000846s ]
+[ 2013-04-08T23:08:55+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T23:08:55+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000884s ]
+[ 2013-04-08T23:08:55+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000978s ]
+[ 2013-04-08T23:08:55+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T23:08:55+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.018502s ]
+[ 2013-04-08T23:08:55+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018593s ]
+[ 2013-04-08T23:08:55+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T23:08:55+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000797s ]
+[ 2013-04-08T23:08:55+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000797s ]
+[ 2013-04-08T23:08:55+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000436s ]
+[ 2013-04-08T23:08:55+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000745s ]
+[ 2013-04-08T23:08:55+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002983s ]
+[ 2013-04-08T23:08:55+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T23:08:55+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000730s ]
+[ 2013-04-08T23:08:55+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000820s ]
+[ 2013-04-08T23:10:47+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T23:10:47+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000755s ]
+[ 2013-04-08T23:10:47+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000848s ]
+[ 2013-04-08T23:10:47+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T23:10:47+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000951s ]
+[ 2013-04-08T23:10:47+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.001042s ]
+[ 2013-04-08T23:10:47+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T23:10:47+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.017146s ]
+[ 2013-04-08T23:10:47+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017235s ]
+[ 2013-04-08T23:10:47+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T23:10:47+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000768s ]
+[ 2013-04-08T23:10:47+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000874s ]
+[ 2013-04-08T23:10:47+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000439s ]
+[ 2013-04-08T23:10:47+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000704s ]
+[ 2013-04-08T23:10:47+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002992s ]
+[ 2013-04-08T23:10:47+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T23:10:47+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000713s ]
+[ 2013-04-08T23:10:47+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000794s ]
+[ 2013-04-08T23:14:18+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T23:14:18+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000778s ]
+[ 2013-04-08T23:14:18+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000876s ]
+[ 2013-04-08T23:14:18+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T23:14:18+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000901s ]
+[ 2013-04-08T23:14:18+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000993s ]
+[ 2013-04-08T23:14:18+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T23:14:18+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.019780s ]
+[ 2013-04-08T23:14:18+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.019872s ]
+[ 2013-04-08T23:14:18+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T23:14:18+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000767s ]
+[ 2013-04-08T23:14:18+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000816s ]
+[ 2013-04-08T23:14:18+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000437s ]
+[ 2013-04-08T23:14:18+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000719s ]
+[ 2013-04-08T23:14:18+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002960s ]
+[ 2013-04-08T23:14:18+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T23:14:18+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000814s ]
+[ 2013-04-08T23:14:18+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000902s ]
+[ 2013-04-08T23:15:06+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T23:15:06+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000712s ]
+[ 2013-04-08T23:15:06+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000806s ]
+[ 2013-04-08T23:15:06+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T23:15:06+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000849s ]
+[ 2013-04-08T23:15:06+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000935s ]
+[ 2013-04-08T23:15:06+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T23:15:06+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.018370s ]
+[ 2013-04-08T23:15:06+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018460s ]
+[ 2013-04-08T23:15:06+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T23:15:06+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.001989s ]
+[ 2013-04-08T23:15:06+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000808s ]
+[ 2013-04-08T23:15:06+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000451s ]
+[ 2013-04-08T23:15:06+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000704s ]
+[ 2013-04-08T23:15:06+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004171s ]
+[ 2013-04-08T23:15:06+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T23:15:06+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000666s ]
+[ 2013-04-08T23:15:06+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000753s ]
+[ 2013-04-08T23:15:09+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T23:16:44+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T23:16:44+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000758s ]
+[ 2013-04-08T23:16:44+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000854s ]
+[ 2013-04-08T23:16:44+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T23:16:44+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000842s ]
+[ 2013-04-08T23:16:44+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000930s ]
+[ 2013-04-08T23:16:44+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T23:16:44+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.018422s ]
+[ 2013-04-08T23:16:44+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018514s ]
+[ 2013-04-08T23:16:44+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T23:16:44+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000792s ]
+[ 2013-04-08T23:16:44+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.002278s ]
+[ 2013-04-08T23:16:44+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000547s ]
+[ 2013-04-08T23:16:44+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000764s ]
+[ 2013-04-08T23:16:44+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004610s ]
+[ 2013-04-08T23:16:44+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T23:16:44+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000689s ]
+[ 2013-04-08T23:16:44+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000774s ]
+[ 2013-04-08T23:16:45+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T23:16:51+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ route_check ] --START--
+[ 2013-04-08T23:16:51+08:00 ] /jiasp2/index.php/Index | INFO: Run CheckRoute Behavior [ RunTime:0.000852s ]
+[ 2013-04-08T23:16:51+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ route_check ] --END-- [ RunTime:0.000941s ]
+[ 2013-04-08T23:16:51+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T23:16:51+08:00 ] /jiasp2/index.php/Index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000751s ]
+[ 2013-04-08T23:16:51+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000820s ]
+[ 2013-04-08T23:16:51+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T23:16:51+08:00 ] /jiasp2/index.php/Index | INFO: Run LocationTemplate Behavior [ RunTime:0.000850s ]
+[ 2013-04-08T23:16:51+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000928s ]
+[ 2013-04-08T23:16:51+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T23:16:51+08:00 ] /jiasp2/index.php/Index | INFO: Run ParseTemplate Behavior [ RunTime:0.019840s ]
+[ 2013-04-08T23:16:51+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.019936s ]
+[ 2013-04-08T23:16:51+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T23:16:51+08:00 ] /jiasp2/index.php/Index | INFO: Run ContentReplace Behavior [ RunTime:0.000802s ]
+[ 2013-04-08T23:16:51+08:00 ] /jiasp2/index.php/Index | INFO: Run TokenBuild Behavior [ RunTime:0.000807s ]
+[ 2013-04-08T23:16:51+08:00 ] /jiasp2/index.php/Index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000442s ]
+[ 2013-04-08T23:16:51+08:00 ] /jiasp2/index.php/Index | INFO: Run ShowRuntime Behavior [ RunTime:0.000681s ]
+[ 2013-04-08T23:16:51+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002945s ]
+[ 2013-04-08T23:16:51+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T23:16:51+08:00 ] /jiasp2/index.php/Index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000686s ]
+[ 2013-04-08T23:16:51+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000986s ]
+[ 2013-04-08T23:16:51+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T23:16:53+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ route_check ] --START--
+[ 2013-04-08T23:16:53+08:00 ] /jiasp2/index.php/Index | INFO: Run CheckRoute Behavior [ RunTime:0.000860s ]
+[ 2013-04-08T23:16:53+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ route_check ] --END-- [ RunTime:0.000954s ]
+[ 2013-04-08T23:16:53+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T23:16:53+08:00 ] /jiasp2/index.php/Index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000681s ]
+[ 2013-04-08T23:16:53+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000752s ]
+[ 2013-04-08T23:16:53+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T23:16:53+08:00 ] /jiasp2/index.php/Index | INFO: Run LocationTemplate Behavior [ RunTime:0.000826s ]
+[ 2013-04-08T23:16:53+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000905s ]
+[ 2013-04-08T23:16:53+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T23:16:53+08:00 ] /jiasp2/index.php/Index | INFO: Run ParseTemplate Behavior [ RunTime:0.017864s ]
+[ 2013-04-08T23:16:53+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017960s ]
+[ 2013-04-08T23:16:53+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T23:16:53+08:00 ] /jiasp2/index.php/Index | INFO: Run ContentReplace Behavior [ RunTime:0.000799s ]
+[ 2013-04-08T23:16:53+08:00 ] /jiasp2/index.php/Index | INFO: Run TokenBuild Behavior [ RunTime:0.000796s ]
+[ 2013-04-08T23:16:53+08:00 ] /jiasp2/index.php/Index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000438s ]
+[ 2013-04-08T23:16:53+08:00 ] /jiasp2/index.php/Index | INFO: Run ShowRuntime Behavior [ RunTime:0.000767s ]
+[ 2013-04-08T23:16:53+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003010s ]
+[ 2013-04-08T23:16:53+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T23:16:53+08:00 ] /jiasp2/index.php/Index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000706s ]
+[ 2013-04-08T23:16:53+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000793s ]
+[ 2013-04-08T23:16:53+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T23:16:54+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ route_check ] --START--
+[ 2013-04-08T23:16:54+08:00 ] /jiasp2/index.php/Index | INFO: Run CheckRoute Behavior [ RunTime:0.000861s ]
+[ 2013-04-08T23:16:54+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ route_check ] --END-- [ RunTime:0.000952s ]
+[ 2013-04-08T23:16:54+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T23:16:54+08:00 ] /jiasp2/index.php/Index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000683s ]
+[ 2013-04-08T23:16:54+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000753s ]
+[ 2013-04-08T23:16:54+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T23:16:54+08:00 ] /jiasp2/index.php/Index | INFO: Run LocationTemplate Behavior [ RunTime:0.000820s ]
+[ 2013-04-08T23:16:54+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000898s ]
+[ 2013-04-08T23:16:54+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T23:16:54+08:00 ] /jiasp2/index.php/Index | INFO: Run ParseTemplate Behavior [ RunTime:0.018753s ]
+[ 2013-04-08T23:16:54+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018865s ]
+[ 2013-04-08T23:16:54+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T23:16:54+08:00 ] /jiasp2/index.php/Index | INFO: Run ContentReplace Behavior [ RunTime:0.000863s ]
+[ 2013-04-08T23:16:54+08:00 ] /jiasp2/index.php/Index | INFO: Run TokenBuild Behavior [ RunTime:0.000892s ]
+[ 2013-04-08T23:16:54+08:00 ] /jiasp2/index.php/Index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000508s ]
+[ 2013-04-08T23:16:54+08:00 ] /jiasp2/index.php/Index | INFO: Run ShowRuntime Behavior [ RunTime:0.000706s ]
+[ 2013-04-08T23:16:54+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003199s ]
+[ 2013-04-08T23:16:54+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T23:16:54+08:00 ] /jiasp2/index.php/Index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001967s ]
+[ 2013-04-08T23:16:54+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_end ] --END-- [ RunTime:0.002053s ]
+[ 2013-04-08T23:16:54+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T23:20:04+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ route_check ] --START--
+[ 2013-04-08T23:20:04+08:00 ] /jiasp2/index.php/Index | INFO: Run CheckRoute Behavior [ RunTime:0.000918s ]
+[ 2013-04-08T23:20:04+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001014s ]
+[ 2013-04-08T23:20:04+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T23:20:04+08:00 ] /jiasp2/index.php/Index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000686s ]
+[ 2013-04-08T23:20:04+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000755s ]
+[ 2013-04-08T23:20:04+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T23:20:04+08:00 ] /jiasp2/index.php/Index | INFO: Run LocationTemplate Behavior [ RunTime:0.000832s ]
+[ 2013-04-08T23:20:04+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000911s ]
+[ 2013-04-08T23:20:04+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T23:20:04+08:00 ] /jiasp2/index.php/Index | INFO: Run ParseTemplate Behavior [ RunTime:0.026975s ]
+[ 2013-04-08T23:20:04+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.027073s ]
+[ 2013-04-08T23:20:04+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T23:20:04+08:00 ] /jiasp2/index.php/Index | INFO: Run ContentReplace Behavior [ RunTime:0.000869s ]
+[ 2013-04-08T23:20:04+08:00 ] /jiasp2/index.php/Index | INFO: Run TokenBuild Behavior [ RunTime:0.000798s ]
+[ 2013-04-08T23:20:04+08:00 ] /jiasp2/index.php/Index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000439s ]
+[ 2013-04-08T23:20:04+08:00 ] /jiasp2/index.php/Index | INFO: Run ShowRuntime Behavior [ RunTime:0.000724s ]
+[ 2013-04-08T23:20:04+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003044s ]
+[ 2013-04-08T23:20:04+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T23:20:04+08:00 ] /jiasp2/index.php/Index | INFO: Run ShowPageTrace Behavior [ RunTime:0.009767s ]
+[ 2013-04-08T23:20:04+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_end ] --END-- [ RunTime:0.009876s ]
+[ 2013-04-08T23:20:14+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T23:24:31+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ route_check ] --START--
+[ 2013-04-08T23:24:31+08:00 ] /jiasp2/index.php/Index | INFO: Run CheckRoute Behavior [ RunTime:0.000941s ]
+[ 2013-04-08T23:24:31+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001041s ]
+[ 2013-04-08T23:24:31+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T23:24:31+08:00 ] /jiasp2/index.php/Index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000691s ]
+[ 2013-04-08T23:24:31+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000761s ]
+[ 2013-04-08T23:24:31+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T23:24:31+08:00 ] /jiasp2/index.php/Index | INFO: Run LocationTemplate Behavior [ RunTime:0.000786s ]
+[ 2013-04-08T23:24:31+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000864s ]
+[ 2013-04-08T23:24:31+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T23:24:31+08:00 ] /jiasp2/index.php/Index | INFO: Run ParseTemplate Behavior [ RunTime:0.020425s ]
+[ 2013-04-08T23:24:31+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.020517s ]
+[ 2013-04-08T23:24:31+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T23:24:31+08:00 ] /jiasp2/index.php/Index | INFO: Run ContentReplace Behavior [ RunTime:0.000821s ]
+[ 2013-04-08T23:24:31+08:00 ] /jiasp2/index.php/Index | INFO: Run TokenBuild Behavior [ RunTime:0.000795s ]
+[ 2013-04-08T23:24:31+08:00 ] /jiasp2/index.php/Index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000436s ]
+[ 2013-04-08T23:24:31+08:00 ] /jiasp2/index.php/Index | INFO: Run ShowRuntime Behavior [ RunTime:0.000684s ]
+[ 2013-04-08T23:24:31+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002948s ]
+[ 2013-04-08T23:24:31+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T23:24:31+08:00 ] /jiasp2/index.php/Index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000699s ]
+[ 2013-04-08T23:24:31+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000784s ]
+[ 2013-04-08T23:24:42+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T23:27:31+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ route_check ] --START--
+[ 2013-04-08T23:27:31+08:00 ] /jiasp2/index.php/Index | INFO: Run CheckRoute Behavior [ RunTime:0.000948s ]
+[ 2013-04-08T23:27:31+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001047s ]
+[ 2013-04-08T23:27:31+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T23:27:31+08:00 ] /jiasp2/index.php/Index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000716s ]
+[ 2013-04-08T23:27:31+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000791s ]
+[ 2013-04-08T23:27:31+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T23:27:31+08:00 ] /jiasp2/index.php/Index | INFO: Run LocationTemplate Behavior [ RunTime:0.000824s ]
+[ 2013-04-08T23:27:31+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000910s ]
+[ 2013-04-08T23:27:31+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T23:27:31+08:00 ] /jiasp2/index.php/Index | INFO: Run ParseTemplate Behavior [ RunTime:0.017516s ]
+[ 2013-04-08T23:27:31+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017604s ]
+[ 2013-04-08T23:27:31+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T23:27:31+08:00 ] /jiasp2/index.php/Index | INFO: Run ContentReplace Behavior [ RunTime:0.000811s ]
+[ 2013-04-08T23:27:31+08:00 ] /jiasp2/index.php/Index | INFO: Run TokenBuild Behavior [ RunTime:0.000798s ]
+[ 2013-04-08T23:27:31+08:00 ] /jiasp2/index.php/Index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000561s ]
+[ 2013-04-08T23:27:31+08:00 ] /jiasp2/index.php/Index | INFO: Run ShowRuntime Behavior [ RunTime:0.000735s ]
+[ 2013-04-08T23:27:31+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003117s ]
+[ 2013-04-08T23:27:31+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T23:27:31+08:00 ] /jiasp2/index.php/Index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000779s ]
+[ 2013-04-08T23:27:31+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000875s ]
+[ 2013-04-08T23:27:33+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T23:34:26+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ route_check ] --START--
+[ 2013-04-08T23:34:26+08:00 ] /jiasp2/index.php/Index | INFO: Run CheckRoute Behavior [ RunTime:0.000964s ]
+[ 2013-04-08T23:34:26+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001066s ]
+[ 2013-04-08T23:34:26+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T23:34:26+08:00 ] /jiasp2/index.php/Index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000748s ]
+[ 2013-04-08T23:34:26+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000828s ]
+[ 2013-04-08T23:34:26+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T23:34:26+08:00 ] /jiasp2/index.php/Index | INFO: Run LocationTemplate Behavior [ RunTime:0.001866s ]
+[ 2013-04-08T23:34:26+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001965s ]
+[ 2013-04-08T23:34:26+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T23:34:26+08:00 ] /jiasp2/index.php/Index | INFO: Run ParseTemplate Behavior [ RunTime:0.018201s ]
+[ 2013-04-08T23:34:26+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018291s ]
+[ 2013-04-08T23:34:26+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T23:34:26+08:00 ] /jiasp2/index.php/Index | INFO: Run ContentReplace Behavior [ RunTime:0.000848s ]
+[ 2013-04-08T23:34:26+08:00 ] /jiasp2/index.php/Index | INFO: Run TokenBuild Behavior [ RunTime:0.000808s ]
+[ 2013-04-08T23:34:26+08:00 ] /jiasp2/index.php/Index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001053s ]
+[ 2013-04-08T23:34:26+08:00 ] /jiasp2/index.php/Index | INFO: Run ShowRuntime Behavior [ RunTime:0.000707s ]
+[ 2013-04-08T23:34:26+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003657s ]
+[ 2013-04-08T23:34:26+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T23:34:26+08:00 ] /jiasp2/index.php/Index | INFO: Run ShowPageTrace Behavior [ RunTime:0.010532s ]
+[ 2013-04-08T23:34:26+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_end ] --END-- [ RunTime:0.010625s ]
+[ 2013-04-08T23:34:29+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T23:48:16+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ route_check ] --START--
+[ 2013-04-08T23:48:16+08:00 ] /jiasp2/index.php/Index | INFO: Run CheckRoute Behavior [ RunTime:0.000940s ]
+[ 2013-04-08T23:48:16+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001040s ]
+[ 2013-04-08T23:48:16+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T23:48:16+08:00 ] /jiasp2/index.php/Index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.006947s ]
+[ 2013-04-08T23:48:16+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.007028s ]
+[ 2013-04-08T23:48:16+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T23:48:16+08:00 ] /jiasp2/index.php/Index | INFO: Run LocationTemplate Behavior [ RunTime:0.000784s ]
+[ 2013-04-08T23:48:16+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000867s ]
+[ 2013-04-08T23:48:16+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T23:48:17+08:00 ] /jiasp2/index.php/Index | INFO: Run ParseTemplate Behavior [ RunTime:0.018944s ]
+[ 2013-04-08T23:48:17+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.019034s ]
+[ 2013-04-08T23:48:17+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T23:48:17+08:00 ] /jiasp2/index.php/Index | INFO: Run ContentReplace Behavior [ RunTime:0.000828s ]
+[ 2013-04-08T23:48:17+08:00 ] /jiasp2/index.php/Index | INFO: Run TokenBuild Behavior [ RunTime:0.000871s ]
+[ 2013-04-08T23:48:17+08:00 ] /jiasp2/index.php/Index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000458s ]
+[ 2013-04-08T23:48:17+08:00 ] /jiasp2/index.php/Index | INFO: Run ShowRuntime Behavior [ RunTime:0.000696s ]
+[ 2013-04-08T23:48:17+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003057s ]
+[ 2013-04-08T23:48:17+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T23:48:17+08:00 ] /jiasp2/index.php/Index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000671s ]
+[ 2013-04-08T23:48:17+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000752s ]
+[ 2013-04-08T23:48:22+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T23:55:45+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ route_check ] --START--
+[ 2013-04-08T23:55:45+08:00 ] /jiasp2/index.php/Index | INFO: Run CheckRoute Behavior [ RunTime:0.000956s ]
+[ 2013-04-08T23:55:45+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001054s ]
+[ 2013-04-08T23:55:45+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T23:55:45+08:00 ] /jiasp2/index.php/Index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000721s ]
+[ 2013-04-08T23:55:45+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000791s ]
+[ 2013-04-08T23:55:45+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T23:55:45+08:00 ] /jiasp2/index.php/Index | INFO: Run LocationTemplate Behavior [ RunTime:0.000847s ]
+[ 2013-04-08T23:55:45+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000936s ]
+[ 2013-04-08T23:55:45+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T23:55:45+08:00 ] /jiasp2/index.php/Index | INFO: Run ParseTemplate Behavior [ RunTime:0.019703s ]
+[ 2013-04-08T23:55:45+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.019794s ]
+[ 2013-04-08T23:55:45+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T23:55:45+08:00 ] /jiasp2/index.php/Index | INFO: Run ContentReplace Behavior [ RunTime:0.000841s ]
+[ 2013-04-08T23:55:45+08:00 ] /jiasp2/index.php/Index | INFO: Run TokenBuild Behavior [ RunTime:0.000802s ]
+[ 2013-04-08T23:55:45+08:00 ] /jiasp2/index.php/Index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000442s ]
+[ 2013-04-08T23:55:45+08:00 ] /jiasp2/index.php/Index | INFO: Run ShowRuntime Behavior [ RunTime:0.000682s ]
+[ 2013-04-08T23:55:45+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002965s ]
+[ 2013-04-08T23:55:45+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T23:55:45+08:00 ] /jiasp2/index.php/Index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001147s ]
+[ 2013-04-08T23:55:45+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_end ] --END-- [ RunTime:0.001248s ]
+[ 2013-04-08T23:55:48+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-08T23:58:03+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ route_check ] --START--
+[ 2013-04-08T23:58:03+08:00 ] /jiasp2/index.php/Index | INFO: Run CheckRoute Behavior [ RunTime:0.000962s ]
+[ 2013-04-08T23:58:03+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001060s ]
+[ 2013-04-08T23:58:03+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ app_begin ] --START--
+[ 2013-04-08T23:58:03+08:00 ] /jiasp2/index.php/Index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001181s ]
+[ 2013-04-08T23:58:03+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001263s ]
+[ 2013-04-08T23:58:03+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_template ] --START--
+[ 2013-04-08T23:58:03+08:00 ] /jiasp2/index.php/Index | INFO: Run LocationTemplate Behavior [ RunTime:0.000864s ]
+[ 2013-04-08T23:58:03+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001002s ]
+[ 2013-04-08T23:58:03+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_parse ] --START--
+[ 2013-04-08T23:58:03+08:00 ] /jiasp2/index.php/Index | INFO: Run ParseTemplate Behavior [ RunTime:0.019497s ]
+[ 2013-04-08T23:58:03+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.019582s ]
+[ 2013-04-08T23:58:03+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_filter ] --START--
+[ 2013-04-08T23:58:03+08:00 ] /jiasp2/index.php/Index | INFO: Run ContentReplace Behavior [ RunTime:0.000817s ]
+[ 2013-04-08T23:58:03+08:00 ] /jiasp2/index.php/Index | INFO: Run TokenBuild Behavior [ RunTime:0.000791s ]
+[ 2013-04-08T23:58:03+08:00 ] /jiasp2/index.php/Index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000437s ]
+[ 2013-04-08T23:58:03+08:00 ] /jiasp2/index.php/Index | INFO: Run ShowRuntime Behavior [ RunTime:0.000684s ]
+[ 2013-04-08T23:58:03+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002928s ]
+[ 2013-04-08T23:58:03+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_end ] --START--
+[ 2013-04-08T23:58:03+08:00 ] /jiasp2/index.php/Index | INFO: Run ShowPageTrace Behavior [ RunTime:0.003220s ]
+[ 2013-04-08T23:58:03+08:00 ] /jiasp2/index.php/Index | INFO: Tag[ view_end ] --END-- [ RunTime:0.004882s ]
+[ 2013-04-08T23:58:08+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public

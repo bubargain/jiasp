@@ -1,0 +1,122 @@
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --START--
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000889s ]
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001020s ]
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000866s ]
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000974s ]
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.007285s ]
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.007382s ]
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000485s ]
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000535s ]
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000330s ]
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000593s ]
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002149s ]
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000226s ]
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:-0.009766s ]
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.002333s ]
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.002660s ]
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000112s ]
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000106s ]
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000020s ]
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000148s ]
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.002933s ]
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --START--
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000304s ]
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Tag[ view_template ] --END-- [ RunTime:-0.013293s ]
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --START--
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Run ParseTemplate Behavior [ RunTime:0.004328s ]
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.006292s ]
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --START--
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Run ContentReplace Behavior [ RunTime:0.000192s ]
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Run TokenBuild Behavior [ RunTime:0.000168s ]
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000020s ]
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000144s ]
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.008557s ]
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --START--
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000808s ]
+[ 2013-04-13T22:10:32+08:00 ] /jiasp2/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000887s ]
+[ 2013-04-13T22:10:33+08:00 ] /jiasp2/Public/pic/visitor_textBg.png | ERR: (ThinkException) 无法加载模块Public
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Tag[ route_check ] --START--
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Run CheckRoute Behavior [ RunTime:0.000859s ]
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.000956s ]
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Tag[ app_begin ] --START--
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000697s ]
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001473s ]
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Tag[ view_template ] --START--
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000702s ]
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000783s ]
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Tag[ view_parse ] --START--
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Run ParseTemplate Behavior [ RunTime:0.007264s ]
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.007351s ]
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Tag[ view_filter ] --START--
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Run ContentReplace Behavior [ RunTime:0.000447s ]
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Run TokenBuild Behavior [ RunTime:0.000521s ]
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000306s ]
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000554s ]
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002021s ]
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Tag[ view_template ] --START--
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000215s ]
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Tag[ view_template ] --END-- [ RunTime:-0.009577s ]
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Tag[ view_parse ] --START--
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Run ParseTemplate Behavior [ RunTime:0.002243s ]
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.002514s ]
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Tag[ view_filter ] --START--
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Run ContentReplace Behavior [ RunTime:0.000107s ]
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Run TokenBuild Behavior [ RunTime:0.000097s ]
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000019s ]
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000132s ]
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.002856s ]
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Tag[ view_template ] --START--
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000302s ]
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Tag[ view_template ] --END-- [ RunTime:-0.012987s ]
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Tag[ view_parse ] --START--
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Run ParseTemplate Behavior [ RunTime:0.005110s ]
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.013600s ]
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Tag[ view_filter ] --START--
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Run ContentReplace Behavior [ RunTime:0.000184s ]
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Run TokenBuild Behavior [ RunTime:0.000178s ]
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000020s ]
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000146s ]
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.016778s ]
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Tag[ view_end ] --START--
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001252s ]
+[ 2013-04-13T22:10:39+08:00 ] /jiasp2/Space/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.001333s ]
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Tag[ route_check ] --START--
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Run CheckRoute Behavior [ RunTime:0.001120s ]
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Tag[ route_check ] --END-- [ RunTime:0.001273s ]
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Tag[ app_begin ] --START--
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000803s ]
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000918s ]
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Tag[ view_template ] --START--
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Run LocationTemplate Behavior [ RunTime:0.000696s ]
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Tag[ view_template ] --END-- [ RunTime:0.000822s ]
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Tag[ view_parse ] --START--
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Run ParseTemplate Behavior [ RunTime:0.010451s ]
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Tag[ view_parse ] --END-- [ RunTime:0.010599s ]
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Tag[ view_filter ] --START--
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Run ContentReplace Behavior [ RunTime:0.000671s ]
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Run TokenBuild Behavior [ RunTime:0.000710s ]
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000390s ]
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Run ShowRuntime Behavior [ RunTime:0.000752s ]
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002864s ]
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Tag[ view_template ] --START--
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Run LocationTemplate Behavior [ RunTime:0.000443s ]
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Tag[ view_template ] --END-- [ RunTime:-0.013849s ]
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Tag[ view_parse ] --START--
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | NOTIC: [8] Undefined variable: foot 7fe8aa8c2147ba4056c8c2c8362e6b6b.php 第 171 行.
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Run ParseTemplate Behavior [ RunTime:0.007897s ]
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.003800s ]
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Tag[ view_filter ] --START--
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Run ContentReplace Behavior [ RunTime:0.000146s ]
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Run TokenBuild Behavior [ RunTime:0.000483s ]
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000039s ]
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Run ShowRuntime Behavior [ RunTime:0.000218s ]
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.008910s ]
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Tag[ view_end ] --START--
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Run ShowPageTrace Behavior [ RunTime:0.000574s ]
+[ 2013-04-13T22:11:18+08:00 ] /jiasp2/Expert | INFO: Tag[ view_end ] --END-- [ RunTime:0.000660s ]
