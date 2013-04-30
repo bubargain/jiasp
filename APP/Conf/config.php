@@ -10,7 +10,7 @@ return array(
         'DB_PWD'    => 'bubargain2012', // 密码
         'DB_PORT'   =>  3306, // 端口
         'DB_PREFIX' => 'jiasp_', // 数据库表前缀 
-		'VAR_URL_PARAMS' => '_URL_',
+		'VAR_URL_PARAMS' => '_URL_', s
 		'SAE_OR_NOT' =>'true',  //local test enviroment
 		'WEBSITE_ADD' => 'http://121.199.11.116/',  //website address
 		'PIC_SERVER' => 'http://121.199.11.116/',  // picture sever address
