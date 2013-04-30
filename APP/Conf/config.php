@@ -12,8 +12,8 @@ return array(
         'DB_PREFIX' => 'jiasp_', // 数据库表前缀 
 		'VAR_URL_PARAMS' => '_URL_',
 		'SAE_OR_NOT' =>'true',  //local test enviroment
-		'WEBSITE_ADD' => 'http://www.jiasp.com/',  //website address
-		'PIC_SERVER' => 'http://121.199.29.18/',  // picture sever address
+		'WEBSITE_ADD' => 'http://121.199.11.116/',  //website address
+		'PIC_SERVER' => 'http://121.199.11.116/',  // picture sever address
 		'UPLOAD_ADD'  => './Public/Uploads/',
 		'TMPL_PARSE_STRING'  =>array(
 				 //'__PUBLIC__' => '/jiasp2/Public', // 更改默认的/Public 替换规则
