@@ -1,0 +1,150 @@
+{include file="../header1.html"}
+
+<link type="text/css" rel="stylesheet" href="themes/cn_style1/css/form.css" />
+
+<script language="JavaScript" type="text/javascript" src="{lib file=jquery/jquery.form.js}"></script>
+<script language="JavaScript" type="text/javascript" src="{lib file=jquery.plugins/jquery.validate1.js}"></script>
+<script language="JavaScript" type="text/javascript" src="{lib file=jquery.plugins/jquery.validate.messages_cn.js}"></script>
+
+<script type="text/javascript">
+
+jQuery.validator.addMethod("is_int", function(value, element) {
+   var aint=parseInt(value);	
+    return aint>0&& (aint+"")==value;   
+  }, "请输入一个数字.");
+
+</script>
+
+<style type="text/css">
+
+#ui-datepicker-div
+{
+	display:none;
+}
+
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+.error
+{
+	padding-left:2px;
+	color:#F00;
+}
+
+</style>
+
+<div class="page_tab">
+	<table cellpadding="0" cellspacing="0">
+		<tr>
+			<td width="10">&nbsp;</td>
+			<td id="Tab1" class="tab"><a href="/admin/index.php?c=sys_priv_collect" >顶级菜单管理</a></td>
+			<td id="Tab1" class="tab_on"><a href="#" >添加新菜单</a></td>
+			<td class="tab_nav">&nbsp;</td>
+		</tr>
+	</table>
+</div>
+
+<div class="main">
+<div class="row" id="data">
+	<div class="setup_name">添加新菜单</div>
+	<form id="form_setup" name="form_setup" action="/admin/index.php?c=sys_priv_collect&a={$form_type}" method="post" >
+	<input type="hidden" id="hi_form_type" name="hi_form_type" value="{$form_type}" />	
+	<input type="hidden" id="hi_collect_id" name="hi_collect_id" value="{$collect_id}" />
+	<div class="setup_data">
+		<div class="content">
+			<div class="content_name">
+				<label class="req" for="e_collect_name">顶级菜单名称：</label>
+			</div>
+			<div class="content_inputx">
+				<input type="text" class="inputbox" id="e_collect_name" name="e_collect_name" value="{$data.collect_name}">
+			</div>
+		</div>
+		
+		<div class="content">
+			<div class="content_name">
+				<label class="req" for="e_action">指向url：</label>
+			</div>
+			<div class="content_inputx">
+				<input type="text" class="inputbox" id="e_action" name="e_action" value="{$data.action}">
+			</div>
+		</div>
+		
+		<div class="content">
+			<div class="content_name">
+				<label class="req" for="e_sort_order">排序次序：</label>
+			</div>
+			<div class="content_inputx">
+				<input type="text" class="inputbox" id="e_sort_order" name="e_sort_order" value="{$data.sort_order}">
+			</div>
+		</div>
+
+	</div>
+	
+	<div class="setup_submit">
+		<input type="submit" id="btn_save" value="保 存" class="btn" style="margin-left:220px;" />
+		<input type="button" id="btn_return" value="返 回" class="btn" onclick="window.location='/admin/index.php?c=sys_priv_collect';"/>
+	</div>
+	
+	</form>
+
+</div>
+	
+</div>
+
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+	$("#form_setup").validate({
+		//设置默认的状态为keyup，也可以设置为blur
+		event: "keyup",
+		//设定规则
+		rules:{
+			e_collect_name:{
+				required: true,
+				minlength: 2,
+				maxlength: 50
+			},
+			e_sort_order:{
+				is_int:true
+			},
+		},
+		messages: {
+			user_name:{
+				required: "请填写顶级菜单名称",
+				minlength: "字符长度不能小于2个字符",
+				maxlength: "字符长度不能大于50个字符"
+			},
+			e_sort_order:{
+				is_int: "请输入一个整数"
+			},
+			
+		},
+	});
+	
+	
+	
+	
+});
+
+function rd_post_type_onChange(type)
+{
+	$("#div_post_select_name").hide();
+	$("#div_post_select_combobox").hide();
+	$("#div_post_type").height(40);
+	if(type==1)
+	{
+		$("#div_post_type").height(220);
+		$("#div_post_select_name").show();
+		$("#div_post_select_combobox").show();
+	}
+}
+
+</script>
+
+{include file="../footer1.html"}

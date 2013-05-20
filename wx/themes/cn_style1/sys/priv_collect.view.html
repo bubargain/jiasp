@@ -1,0 +1,56 @@
+{include file="../header1.html"}
+
+<link type="text/css" rel="stylesheet" href="themes/cn_style1/css/form.css" />
+
+<script language="JavaScript" type="text/javascript" src="{lib file=jquery/jquery.form.js}"></script>
+<script language="JavaScript" type="text/javascript" src="{lib file=jquery.plugins/jquery.validate1.js}"></script>
+<script language="JavaScript" type="text/javascript" src="{lib file=jquery.plugins/jquery.validate.messages_cn.js}"></script>
+
+<div class="page_tab">
+	<table cellpadding="0" cellspacing="0">
+		<tr>
+			<td width="10">&nbsp;</td>
+			<td id="Tab1" class="tab"><a href="/admin/index.php?c=sys_priv_collect" >顶级菜单管理</a></td>
+			<td id="Tab1" class="tab"><a href="/admin/index.php?c=sys_priv_collect&a=add" >添加新菜单</a></td>
+		</tr>
+	</table>
+</div>
+
+<div class="main">
+<div class="row" id="data">
+	<div class="setup_name">菜单详情</div>
+		<input type="hidden" id="hi_form_type" name="hi_form_type" value="{$form_type}" />
+		<input type="hidden" id="hi_collect_id" name="hi_collect_id" value="{$collect_id}" />
+		<div class="setup_data">
+		
+			<div class="content">
+				<div class="content_name">
+					<label class="req" for="e_collect_name">顶级菜单名称：</label>
+				</div>
+				<div class="content_display">{$data.collect_name}</div>
+			</div>
+			
+			<div class="content">
+				<div class="content_name">
+					<label class="req" for="e_action">指向url：</label>
+				</div>
+				<div class="content_display">{$data.action}</div>
+			</div>
+			
+			<div class="content">
+				<div class="content_name">
+					<label class="req" for="e_sort_order">排序次序：</label>
+				</div>
+				<div class="content_display">{$data.sort_order}</div>
+			</div>
+			
+		</div>
+		<div class="setup_submit" style="text-align:center;">
+			<input type="button" id="btn_return" value="返 回" class="btn" onclick="window.location='index.php?c=sys_priv_collect';"/>
+		</div>
+	</div>
+</div>
+	
+</div>
+
+{include file="../footer1.html"}

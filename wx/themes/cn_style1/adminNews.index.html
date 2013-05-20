@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>资讯列表-资讯管理</title>
+</head>
+
+
+
+<body>
+<form method="get"  action="index.php">
+    <div>
+        <ul>
+            <li>关键词：<input type="text" name="title" value="{$params.title}">  focus：<input type="text" name="focus" value="{$params.focus}"><input type="hidden" name="c" value="adminNews"> <input type="submit" value="检索"></li>
+        </ul>
+    </div>
+</form>
+<p><a href="index.php?c=adminNews&a=addNews">添加资讯</a> || <a href="index.php?c=keys">关键词维护</a> || <a href="index.php?c=count">数据统计</a></p>
+<div>
+    {foreach from=$list item=item}
+    <ul>
+        <li>id:= {$item.id}, date_str :={$item.date_str}, title:= {$item.title}
+            <a href="index.php?c=adminNews&a=deleteNews&ids[]={$item.id}" onclick="return window.confirm('确定删除?')">删除</a> || <a href="index.php?c=adminNews&a=editNews&id={$item.id}" onclick="return window.confirm('are you sure about that?')">修改</a>{if $item.focus neq 2}<a href="./down.php?start={$item.id}&step=0&cid={$item.id}" target="_blank">图片本地化</a>{/if}</li>
+    </ul>
+    {/foreach}
+</div>
+<div>{$pages}</div>
+</body>
+</html>

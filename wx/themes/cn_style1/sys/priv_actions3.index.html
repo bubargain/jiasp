@@ -1,0 +1,265 @@
+{include file="../header1.html"}
+<link href="/admin/js/jquery.ui/jquery-ui-1.8.16.custom.css" rel="stylesheet" />
+<script type="text/javascript" src="/admin/js/jquery.ui/jquery-ui-1.8.16.custom.min.js" charset="utf-8"></script>
+<link type="text/css" rel="stylesheet" href="themes/cn_style1/css/index.css" />
+
+
+<style type="text/css">
+
+.ui-widget-header
+{
+	border:none;
+	margin:0px;
+	background: url("/includes/libraries/javascript/jquery.plugins/jquery.jmpopups/images/bgr_popup_header.jpg") repeat-x scroll 0 0 transparent;
+	color:#000;
+	height: 24px;
+	line-height:20px;
+	padding:7px;
+	font-size:20px;
+	font-weight:normal;
+}
+
+.ui-widget-content
+{
+	background:#fff;
+}
+
+.ui-corner-all
+{
+	border-radius:0;
+}
+
+.ui-dialog
+{
+	padding:1px;
+	border:#333 solid 1px;
+	background: none repeat scroll 0 0 #FFFFFF;
+	overflow: hidden;
+	border-radius: 3px 3px 3px 3px;
+	box-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+}
+
+.ui-dialog-buttonset
+{
+	text-align:center;
+	width:100%;
+}
+
+.ui-dialog-buttonset button
+{
+	width:100px;
+	height:28px;
+}
+
+.ui-helper-clearfix:after
+{
+	display:none;
+}
+
+.tview
+{
+	height:auto;
+	width:100%;
+	float:left;
+}
+
+.tview .tview_data
+{
+	height:auto;
+	float:left;
+}
+
+.tview .tview_control
+{
+	padding-top:10px;
+	height:36px;
+	background-color:#CCC;
+	float:left;
+	width:100%;
+}
+
+.tview .tview_control .btn
+{
+	height:26px;
+	line-height:22px;
+	width:70px;
+	padding:0px;
+}
+
+.ui-dialog .ui-dialog-content
+{
+	padding:0px;
+}
+
+.ui-widget-header
+{
+	height:22px;
+}
+
+.readonly_edit
+{
+	float:left;
+	color:#333;
+	background-color:#eee;
+	border:#000 solid 1px;
+	width:150px;
+	margin-top:2px;
+	display:inline;
+	padding:2px;
+}
+
+.demo-section
+{
+	width: 200px;
+}
+
+#treeview .k-sprite
+{
+}
+
+.root
+{
+	background-image:url(/admin/images/tree/1a.gif);
+}
+
+.folder
+{
+	background-image:url(/admin/images/tree/folder.gif);
+}
+
+.childfolder
+{
+	background-image:url(/admin/images/tree/2.gif);
+}
+
+.item
+{
+	background-image:url(/admin/images/tree/4.gif);
+}
+
+
+
+</style>
+<div class="page_tab">
+	<table cellpadding="0" cellspacing="0">
+		<tr>
+			<td width="10">&nbsp;</td>
+			<td id="Tab1" class="tab_on"><a href="#" >权限管理</a></td>
+			<td class="tab_nav">&nbsp;</td>
+		</tr>
+	</table>
+</div>
+<div class="tview">
+	<div class="tview_control">&nbsp;&nbsp;
+		请选择顶级菜单：
+		<select id="combo_top_menu" name="combo_top_menu" style="width:130px;" onchange="combo_top_menu_onchange(this.options[this.selectedIndex].value);">
+			<option value="0">请选择</option>
+			{foreach from=$priv_collect_data key=key item=tm name=fe_priv_collect_data}
+			<option value="{$tm.collect_id}">{$tm.collect_name}</option>
+			{/foreach}
+		</select>
+		&nbsp;
+		<input name="text" id="text" value="Node" class="k-textbox"/>
+		&nbsp;
+		<input type="button" class="btn" id="btnAddTj" name="btnAddTj" value="+同级" onclick="btnAddTjOnClick();" />
+		&nbsp;
+		<input type="button" class="btn" id="btnAddXj" name="btnAddXj" value="+子级" />
+		&nbsp;
+		<input type="button" class="btn" id="btnChange" name="btnChange" value="修改" onclick="btnChangeOnClick();" />
+		&nbsp;
+		<input type="button" class="btn" id="btnDelete" name="btnDelete" value="删除" onclick="btnDeleteOnClick();" />
+	</div>
+	<div class="tview_data" id="treeview"></div>
+</div>
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+});
+
+function combo_top_menu_onchange(obj)
+{
+	/*
+	if(obj>0)
+	{
+		var url="index.php?c=sys_priv_actions&a=ajax_get_priv_actions&cid=" + obj + "&lsh=" + getLsh();
+		$.getJSON(url,function(data){
+			var html=set_tree_html(data,0);
+			$("#treeview").html(html);
+			treeview = $("#treeview").kendoTreeView({
+				select: onSelect
+			}),
+			append = function(e){
+			if (e.type != "keypress" || kendo.keys.ENTER == e.keyCode)
+			{
+				var selectedNode = treeview.select();
+				if (selectedNode.length == 0)
+				{
+					selectedNode = null;
+				}
+				treeview.append(
+				{
+					text: $("#text").val()
+				}, selectedNode);
+			}};
+			treeview.selectNode_id=0;
+		});
+	}
+	*/
+}
+
+function set_tree_html(data,level)
+{
+	if(!data)
+	{
+		return;
+	}
+	var html="";
+	var type="folder";
+	if(level==1)
+	{
+		type="childfolder";
+	}
+	else if(level==2)
+	{
+		type="item";
+	}
+	for(var i=0;i<data.length;i++)
+	{
+		html+="<li data-expanded='true' action_id='" + data[i]["action_id"] + "'>";
+		html+="<span class='k-sprite " + type + "' ></span>" + data[i]["name"];
+		if(data[i]["Nodes"].length>0)
+		{
+			html+="<ul>";
+			html+=set_tree_html(data[i]["Nodes"],level+1);
+			html+="</ul>";
+		}
+		html+="</li>";
+	}
+	return html;
+}
+
+function btnAddTjOnClick()
+{
+	if(treeview.selectNode_id==0)
+	{
+		alert("请选中一个项目!");
+		return;
+	}
+	append;
+}
+
+function btnAddXjOnClick()
+{
+}
+
+function btnChangeOnClick()
+{
+}
+
+function btnDeleteOnClick()
+{
+}
+
+</script> 
+{include file="../footer1.html"}

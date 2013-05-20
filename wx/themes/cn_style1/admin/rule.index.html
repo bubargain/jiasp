@@ -1,0 +1,143 @@
+{include file="../header.html"}
+
+<link type="text/css" rel="stylesheet" href="themes/cn_style1/css/form.css" />
+
+<script language="JavaScript" type="text/javascript" src="/includes/libraries/javascript/jquery.form.js"></script>
+<script language="JavaScript" type="text/javascript" src="/includes/libraries/javascript/jquery.plugins/jquery.validate1.js"></script>
+<script language="JavaScript" type="text/javascript" src="/includes/libraries/javascript/jquery.plugins/jquery.validate.messages_cn.js"></script>
+
+<div class="main">
+
+
+<div class="row" style="padding:10px;">
+设置微信App活动话述
+</div>
+
+<div class="row" id="data">
+	<form id="form_setup" name="form_setup" action="index.php?c=admin_rule" method="post" >
+	<div class="setup_data">
+	
+		<div class="content">
+			<div class="content_name">类型：</div>
+			<div class="content_input" style="width:600px;">
+				<select id="combo_type" name="combo_type" style="width:212px;" onchange="combo_type_onchange(this.options[this.selectedIndex].value);">
+					<option value="0" {if $data.type==0}selected="selected"{/if}>&nbsp;</option>
+					<option value="1" {if $data.type==1}selected="selected"{/if}>T的置顶</option>
+					<option value="2" {if $data.type==2}selected="selected"{/if}>T的第一页更多</option>
+					<option value="3" {if $data.type==3}selected="selected"{/if}>T的其他页更多</option>
+					<option value="4" {if $data.type==4}selected="selected"{/if}>搜索结果更多</option>
+					<option value="5" {if $data.type==5}selected="selected"{/if}>无搜索结果</option>
+					<option value="6" {if $data.type==6}selected="selected"{/if}>初次登录|其他输入</option>
+				</select>
+				&nbsp;&nbsp;
+				{if $data.type==1}
+				<input type="checkbox" id="ck_usable" name="ck_usable" {if $data.usable}checked="checked"{/if} /><label for="ck_usable">是否启用</label>
+				{/if}
+				&nbsp;&nbsp;
+				<a href="javascript:;" onclick="change_style();return false;" style="display:none">更换样式</a>
+			</div>
+			<div class="content_infobox">
+				<label class="error reminder" generated="true" for="combo_status" style="display: none;"></label>
+			</div>
+		</div>
+		
+		<div id="div_style" class="content" {if $data}style="display:none;"{/if} >
+			<div class="content_name">样式：</div>
+			<div class="content_input">
+				<select id="combo_style" name="combo_style" style="width:212px;" onchange="combo_style_onchange(this.options[this.selectedIndex].value);">
+					<option value="1" {if $data.style==1}selected="selected"{/if}>纯文本</option>
+					<option value="2" {if $data.style==2}selected="selected"{/if}>图片导航</option>
+				</select>
+			</div>
+			<div class="content_infobox">
+				<label class="error reminder" generated="true" for="combo_type" style="display: none;"></label>
+			</div>
+		</div>
+		
+		<div class="content" id="div_title" {if $data.style eq 1}style="display:none;"{/if}>
+			<div class="content_name">标题：</div>
+			<div class="content_input" style="width:600px;">
+				<input type="text" id="e_title" name="e_title" value="{$data.title}" style="width:300px;" />
+			</div>
+			<div class="content_infobox">
+				<label class="error reminder" generated="true" for="e_title" style="display: none;"></label>
+			</div>
+		</div>
+		
+		<div class="content" id="div_description" style="height:50px;{if $data.style eq 2}display:none;{/if}">
+			<div class="content_name">描述：</div>
+			<div class="content_input" style="width:600px;">
+				<input type="text" id="e_description" name="e_description" value="{$data.description}" style="width:300px;" />
+			</div>
+			<div class="content_infobox">
+				<span style="color:#F00">替换关键词用{key}标签</span>
+				<label class="error reminder" generated="true" for="e_description" style="display: none;"></label>
+			</div>
+		</div>
+		
+		<div class="content" id="div_image" {if $data.img_show eq 0}style="display:none;"{/if}>
+			<div class="content_name">图片：</div>
+			<div class="content_input" style="width:600px;">
+				<input type="text" id="e_img_url" name="e_img_url" value="{$data.img_url}" style="width:300px;" />
+			</div>
+			<div class="content_infobox">
+				<label class="error reminder" generated="true" for="e_img_url" style="display: none;"></label>
+			</div>
+		</div>
+		
+		<div class="content" id="div_url" {if $data.img_show eq 0}style="display:none;"{/if}>
+			<div class="content_name">链接：</div>
+			<div class="content_input" style="width:600px;">
+				<input type="text" id="e_link" name="e_link" value="{$data.link}" style="width:300px;" />
+			</div>
+			<div class="content_infobox">
+				<label class="error reminder" generated="true" for="e_link" style="display: none;"></label>
+			</div>
+		</div>
+		
+	</div>
+	
+	<div class="setup_submit">
+		<input type="submit" id="btn_save" value="保 存" class="btn" style="margin-left:220px;" />
+	</div>
+	
+	</form>
+
+</div>
+	
+</div>
+
+
+<script type="text/javascript">
+
+function combo_style_onchange(val)
+{
+	if(val==1)
+	{
+		$("#div_title").hide();
+		$("#div_description").show();
+		$("#div_image").hide();
+		$("#div_url").hide();
+	}
+	else if(val==2)
+	{
+		$("#div_title").show();
+		$("#div_description").show();
+		$("#div_image").show();
+		$("#div_url").show();
+	}
+}
+
+function combo_type_onchange(val)
+{
+	location.href="index.php?c=admin_rule&type=" + val;
+}
+
+function change_style()
+{
+	$("#div_style").show();
+}
+
+</script>
+
+{include file="../footer.html"}

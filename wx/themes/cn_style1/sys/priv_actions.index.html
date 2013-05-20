@@ -1,0 +1,596 @@
+{include file="../header1.html"}
+
+<script type="text/javascript" src="{lib file=jquery.ui/jquery-ui-1.8.16.custom.min.js}" charset="utf-8"></script>
+<script type="text/javascript" src="{lib file=jquery.plugins/jquery.validate.js}" charset="utf-8"></script>
+<script type="text/javascript" src="{lib file=jquery/jquery.form.js}"></script>
+<script type="text/javascript" src="/admin/js/kendoui/js/kendo.web.min.js"></script>
+
+
+<link type="text/css" rel="stylesheet" href="themes/cn_style1/css/index.css" />
+<link href="{lib file=jquery.ui/jquery-ui-1.8.16.custom.css}" rel="stylesheet" />
+<link rel="stylesheet" href="{lib file=kendoui/styles/kendo.common.min.css}" />
+<link rel="stylesheet" href="{lib file=kendoui/styles/kendo.default.min.css}" />
+
+<script type="text/javascript" src="{lib file=dialog/dialog.js}" charset="utf-8"></script>
+
+<style type="text/css">
+
+.ui-widget-header
+{
+	border:none;
+	margin:0px;
+	background: url("/admin/js/jquery.plugins/jquery.jmpopups/images/bgr_popup_header.jpg") repeat-x scroll 0 0 transparent;
+	color:#000;
+	height: 24px;
+	line-height:20px;
+	padding:7px;
+	font-size:20px;
+	font-weight:normal;
+}
+
+.ui-widget-content
+{
+	background:#fff;
+}
+
+.ui-corner-all
+{
+	border-radius:0;
+}
+
+.ui-dialog
+{
+	padding:1px;
+	border:#333 solid 1px;
+	background: none repeat scroll 0 0 #FFFFFF;
+	overflow: hidden;
+	border-radius: 3px 3px 3px 3px;
+	box-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+}
+
+.ui-dialog-buttonset
+{
+	text-align:center;
+	width:100%;
+}
+
+.ui-dialog-buttonset button
+{
+	width:100px;
+	height:28px;
+}
+
+.ui-helper-clearfix:after
+{
+	display:none;
+}
+
+.tview
+{
+	height:500px;
+	width:100%;
+	float:left;
+}
+
+.tview .tview_data
+{
+	height:auto;
+	float:left;
+}
+
+.tview .tview_control
+{
+	padding-top:10px;
+	height:36px;
+	background-color:#CCC;
+	float:left;
+	width:100%;
+}
+
+.tview .tview_control .btn
+{
+	height:26px;
+	line-height:22px;
+	width:70px;
+	padding:0px;
+}
+
+.ui-dialog .ui-dialog-content
+{
+	padding:0px;
+}
+
+.ui-widget-header
+{
+	height:22px;
+}
+
+.readonly_edit
+{
+	float:left;
+	color:#333;
+	background-color:#eee;
+	border:#000 solid 1px;
+	width:150px;
+	margin-top:2px;
+	display:inline;
+	padding:2px;
+}
+
+.demo-section
+{
+	width: 200px;
+}
+
+#treeview .k-sprite
+{
+}
+
+.root
+{
+	background-image:url(/admin/images/tree/1a.gif);
+}
+
+.folder
+{
+	background-image:url(/admin/images/tree/folder.gif);
+}
+
+.childfolder
+{
+	background-image:url(/admin/images/tree/2.gif);
+}
+
+.item
+{
+	background-image:url(/admin/images/tree/4.gif);
+}
+
+.content
+{
+	width:100%;
+	height:30px;
+	float:left;
+}
+
+.content .content_name
+{
+	width:120px;
+	float:left;
+	height:30px;
+	line-height:30px;
+	text-align:right;
+	padding-right:4px;
+}
+
+.content .content_input
+{
+	width:290px;
+	float:left;
+	height:24px;
+	padding-top:6px;
+}
+
+.error
+{
+	padding-left:4px;
+	color:#F00;
+}
+
+</style>
+
+<div id="dialog_tree_item" style="display:none; border:#333 solid 0px;">
+	<div class="dialog_content" id="div_tree_item">
+	
+		<form id="frm_item" name="frm_item" method="post">
+		<input type="hidden" id="hi_frm_item_type" name="hi_frm_item_type" value="add" />
+		<input type="hidden" id="hi_collect_id" name="hi_collect_id" value="0" />
+		<input type="hidden" id="hi_action_id" name="hi_action_id" value="0" />
+		<div class="content" style="margin-top:6px; display:inline;">
+			<div class="content_name">
+				<label class="req" for="e_sn">编号：</label>
+			</div>
+			<div class="content_input">
+				<input type="text" id="e_sn" name="e_sn" minlength="2" maxlength="16" style="width:130px;">
+			</div>
+		</div>
+		
+		<div class="content" style="margin-top:5px; display:inline;">
+			<div class="content_name">
+				<label class="req" for="e_name">名称：</label>
+			</div>
+			<div class="content_input">
+				<input type="text" id="e_name"" name="e_name"" minlength="2" style="width:130px;">
+			</div>
+		</div>
+		
+		<div class="content" style="margin-top:5px; display:inline;">
+			<div class="content_name">
+				<label class="req" for="combo_type">类型：</label>
+			</div>
+			<div class="content_input">
+				<select id="combo_type" name="combo_type" style="width:134px;">
+					<option value="0">目录</option>
+					<option value="1">下级权限</option>
+					<option value="2">子功能权限</option>
+				</select>
+			</div>
+		</div>
+		
+		<div class="content" style="margin-top:5px; display:inline;">
+			<div class="content_name">
+				<label class="req" for="e_action">权限字符串：</label>
+			</div>
+			<div class="content_input">
+				<input type="text" id="e_action" name="e_action" minlength="2" style="width:130px;">
+			</div>
+		</div>
+		</form>
+				
+	</div>
+</div>
+
+<div class="page_tab">
+	<table cellpadding="0" cellspacing="0">
+		<tr>
+			<td width="10">&nbsp;</td>
+			<td id="Tab1" class="tab_on"><a href="#" >权限管理</a></td>
+			<td class="tab_nav">&nbsp;</td>
+		</tr>
+	</table>
+</div>
+<div class="tview">
+	<div class="tview_control">&nbsp;&nbsp;
+		请选择顶级菜单：
+		<select id="combo_top_menu" name="combo_top_menu" style="width:130px;" onchange="combo_top_menu_onchange(this.options[this.selectedIndex].value);">
+			<option value="0">请选择</option>
+			{foreach from=$priv_collect_data key=key item=tm name=fe_priv_collect_data}
+			<option value="{$tm.collect_id}">{$tm.collect_name}</option>
+			{/foreach}
+		</select>
+		&nbsp;
+		<input type="button" class="btn" id="btnAdd" name="btnAdd" value="添加" />
+		&nbsp;
+		<input type="button" class="btn" id="btnChange" name="btnChange" value="修改" onclick="btnChangeOnClick();" />
+		&nbsp;
+		<input type="button" class="btn" id="btnDel" name="btnDel" value="删除" onclick="btnDelOnClick();" />
+	</div>
+	
+	<div class="tview_data" id="treeview">&nbsp;</div>
+	
+</div>
+<script type="text/javascript">
+
+var treeview=null;
+
+function onSelect(e)
+{
+	var menu_id=$(e.node).attr("action_id");
+	treeview.selectNode_id=menu_id;
+}
+
+$(document).ready(function(){
+	var treeview = $("#treeview").kendoTreeView().data("kendoTreeView"),
+		append = function(e){
+			if (e.type != "keypress" || kendo.keys.ENTER == e.keyCode) {
+				
+				var collect_id=$("#hi_collect_id").val();
+				if(collect_id<=0)
+				{
+					alert("请先选择一个顶级菜单！");
+					return;
+				}
+				
+				var selectedNode = treeview.select();
+	
+				// passing a falsy value as the second append() parameter
+				// will append the new node to the root group
+				if (selectedNode.length == 0) {
+					selectedNode = null;
+				}
+				
+				$("#dialog_tree_item").dialog({
+					title:"设置权限",
+					bgiframe: true,
+					resizable: false,
+					modal: true,
+					width:460,
+					height:242,
+					minWidth:300,
+					minHeight:180,
+					overlay: {
+						backgroundColor: '#000',
+						opacity: 0.5
+					},
+					buttons: {
+						'确定': function(){
+							if($("#frm_item").valid())
+							{
+								AddTreeItem(this,treeview,selectedNode);
+							}
+						},					
+						'取消': function() {
+							$(this).dialog('close');
+						}
+					}
+				});				
+			}
+		};
+	$("#btnAdd").click(append);
+
+	$("#frm_item").validate({
+		//设置默认的状态为keyup，也可以设置为blur
+		event: "keyup",
+		//设定规则
+		rules:{
+			e_sn:{
+				required: true,
+				minlength: 2,
+				maxlength: 32
+			},
+			e_name:{
+				required: true,
+				minlength: 2,
+				maxlength: 100
+			},
+		},
+		messages: {
+			e_sn:{
+				required: "请填写编号",
+				minlength: "字符长度不能小于2个字符",
+				maxlength: "字符长度不能大于32个字符"
+			},
+			e_name:{
+				required: "请填写名称",
+				minlength: "字符长度不能小于2个字符",
+				maxlength: "字符长度不能大于100个字符"
+			},
+		},
+	});	
+});
+
+function AddTreeItem(dialog,treeview,selectedNode)
+{
+	var cur_action_id=$(selectedNode).attr("action_id");
+	$("#hi_action_id").attr("value",cur_action_id);
+	var item_sn=$("#e_sn").val();
+	var item_name=$("#e_name").val();
+	var item_type=$("#combo_type").val();
+	var item_action=$("#e_action").val();
+	
+	var options = {
+		type:"POST",
+		success: function(data)
+		{
+			data=window['eval']('(' + data + ')');
+			if(data.error!="")
+			{
+				alert("添加失败！");
+			}
+			else
+			{
+				$(dialog).dialog('close');
+				var node_name="[" + item_sn + "]" + item_name;
+				if(!CkTreeItemIsExist(node_name))
+				{
+					treeview.append({
+						text: node_name
+					}, selectedNode);
+					setTreeItem(treeview,10,node_name,item_type,item_sn,item_name,item_action);
+					return true;
+				}
+				else
+				{
+					alert("节点" + node_name + "已经添加过了!");
+					return false;
+				}
+			}
+		}
+	};
+	$("#frm_item").ajaxSubmit(options);
+}
+
+function ChangeTreeItem(dialog,treeview,selectedNode)
+{
+	var cur_action_id=$(selectedNode).attr("action_id");
+	$("#hi_action_id").attr("value",cur_action_id);
+	var item_sn=$("#e_sn").val();
+	var item_name=$("#e_name").val();
+	var item_type=$("#combo_type").val();
+	var item_action=$("#e_action").val();
+	
+	var options = {
+		type:"POST",
+		success: function(data)
+		{
+			data=window['eval']('(' + data + ')');
+			if(data.error!="")
+			{
+				alert("修改失败！");
+			}
+			else
+			{
+				$(dialog).dialog('close');
+				var node_name="[" + item_sn + "]" + item_name;
+				setTreeItem(treeview,10,node_name,item_type,item_sn,item_name,item_action);
+				return true;
+			}
+		}
+	};
+	$("#frm_item").ajaxSubmit(options);
+}
+
+//检查某个树项目的名称是否重复
+function CkTreeItemIsExist(name)
+{
+	var treeview = $("#treeview").kendoTreeView().data("kendoTreeView");
+	var findText=$("#text").val();
+	var foundNode = treeview.findByText(findText);
+	if(foundNode.length>0)
+	{
+		return true;
+	}
+}
+
+function setTreeItem(treeview,action_id,name,type,item_sn,item_name,item_action)
+{
+	var foundNode = treeview.findByText(name);
+	var html="";
+	if(type==1)
+	{
+		html="<div class='k-top'><span class='k-in'><span class='k-sprite childfolder'></span>" + name + "</span></div>";
+	}
+	else if(type==2)
+	{
+		html="<div class='k-top'><span class='k-in'><span class='k-sprite item'></span>" + name + "</span></div>";
+	}
+	else
+	{
+		html="<div class='k-top'><span class='k-in'><span class='k-sprite folder'></span>" + name + "</span></div>";
+	}
+	foundNode.html(html);
+	foundNode.attr("action_id",action_id);
+	
+	//再更新li的相关数据
+	
+	
+}
+
+function combo_top_menu_onchange(obj)
+{
+	if(obj>0)
+	{
+		$("#hi_collect_id").attr("value",obj);
+		var url="index.php?c=sys_priv_actions&a=ajax_get_priv_actions&cid=" + obj + "&lsh=" + getLsh();
+		$.getJSON(url,function(data){
+			var html=set_tree_html(data,0);
+			$("#treeview").html(html);
+			var treeview = $("#treeview0").kendoTreeView();
+			treeview.selectNode_id=0;
+		});
+	}
+}
+
+function set_tree_html(data,level)
+{
+	if(!data)
+	{
+		return;
+	}
+	var html="<ul";
+	if(level==0)
+	{
+		html+=" data-bind='kendoTreeView:{}' id='treeview0'";
+	}
+	html+=">";
+	var type="";
+	for(var i=0;i<data.length;i++)
+	{
+		type="folder";
+		if(data[i]["type"]==1)
+		{
+			type="childfolder";
+		}
+		else if(data[i]["type"]==2)
+		{
+			type="item";
+		}
+		html+="<li id='li_" + data[i]["action_id"] + "' type='" + data[i]["type"] + "' sn='" + data[i]["sn"] + "' name='" + data[i]["name"] + "' action='" + data[i]["action"] + "' data-expanded='true' action_id='" + data[i]["action_id"] + "'>";
+		html+="<span class='k-sprite " + type + "' ></span>" + "[" + data[i]["sn"] + "]" + data[i]["name"];
+		if(data[i]["Nodes"].length>0)
+		{
+			html+=set_tree_html(data[i]["Nodes"],level+1);
+		}
+		html+="</li>";
+	}
+	html+="</ul>";
+	return html;
+}
+
+function btnAddTjOnClick()
+{
+	if(treeview.selectNode_id==0)
+	{
+		alert("请选中一个项目!");
+		return;
+	}
+}
+
+function btnAddXjOnClick()
+{
+}
+
+function btnChangeOnClick()
+{
+	var treeview = $("#treeview").kendoTreeView().data("kendoTreeView");
+	var selectedNode = treeview.select();
+	var action_id=$(selectedNode).attr("action_id");
+	if(!action_id)
+	{
+		alert("请先选择一个要修改的菜单！");
+		return;
+	}
+	
+	$("#hi_frm_item_type").attr("value","change");			//类型
+	$("#hi_collect_id").attr("value",$("#combo_top_menu").val());						//集合id编号
+	
+	//<li id="li_12" type="1" class="k-item k-first" action_id="12" data-expanded="true" action="GOODS_001" name="商品分类" sn="GOODS_001"
+	
+	var type=$("#li_" + action_id).attr("type");
+	var sn=$("#li_" + action_id).attr("sn");
+	var name=$("#li_" + action_id).attr("name");
+	var action=$("#li_" + action_id).attr("action");
+	
+	$("#e_sn").val(sn);
+	$("#e_name").val(name);
+	$("#combo_type").val(type);
+	$("#e_action").val(action);
+	
+	$("#dialog_tree_item").dialog({
+		title:"设置权限",
+		bgiframe: true,
+		resizable: false,
+		modal: true,
+		width:460,
+		height:242,
+		minWidth:300,
+		minHeight:180,
+		overlay: {
+			backgroundColor: '#000',
+			opacity: 0.5
+		},
+		buttons: {
+			'确定': function(){
+				if($("#frm_item").valid())
+				{
+					ChangeTreeItem(this,treeview,selectedNode);
+				}
+			},					
+			'取消': function() {
+				$(this).dialog('close');
+			}
+		}
+	});
+	
+}
+
+function btnDelOnClick()
+{
+	var treeview = $("#treeview").kendoTreeView().data("kendoTreeView");
+	var selectedNode = treeview.select();
+	var url="index.php?c=sys_priv_actions&a=ajax_delete_priv_action&id=" + $(selectedNode).attr("action_id") + "&lsh=" + getLsh();
+	$.getJSON(url,function(data){
+		if(data.error!="")
+		{
+			alert("添加失败！");
+		}
+		else
+		{
+			$(selectedNode).remove();
+			alert("删除成功！");			
+		}
+	});
+}
+
+</script>
+{include file="../footer1.html"}

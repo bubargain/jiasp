@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	font-size:12px;
+	font-family:"宋体", Arial;
+}
+
+body,textarea, textbox
+{
+	font-size:12px;
+	font-family:"宋体", Arial;	
+}
+
+body
+{
+	color:#000000;
+}
+
+ul, li {
+	list-style-type:none;
+}
+
+A
+{
+	COLOR: #003699;
+	text-decoration:none;
+}
+
+A:hover 
+{
+	COLOR: #FF0000;
+	text-decoration:underline;
+}
+
+.inputbox
+{
+	margin:0px;
+	padding:0px;
+	height:18px;
+	line-height:18px;
+	padding-left:4px;
+	padding-right:4px;
+}
+
+.inputbtn
+{
+	margin:0px;
+	padding:0px;
+	border:#CCC solid 1px;
+	height:20px;
+	width:70px;
+	text-align:center;
+}
+
+.btn1
+{
+	width:80px;
+	height:22px;
+	line-height:22px;
+	margin:0px;
+	padding:0px;
+}
+
+
+.page_path
+{
+	height: 22px;
+	line-height:22px;
+	background: #f0f7ff;
+	margin-top:9px;
+}
+
+.page_path a
+{
+	font-size:16px;
+	padding-left:10px;
+}
+
+.page_path span
+{
+	font-size:16px;
+}
+
+.page_tab
+{
+	height: 22px; 
+	background: #f0f7ff;
+}
+
+.page_tab .tab
+{
+	height:20px;
+	line-height:17px;
+	background:url('../images/tab_l.gif') no-repeat;
+	letter-spacing:1px;
+}
+
+.page_tab .tab a:link,.tab a:visited,.tab a:active
+{
+	text-decoration:none;
+	background:url('../images/tab_r.gif') no-repeat right 0;
+	padding:4px 15px 1px 15px;
+	display:block;
+}
+
+.page_tab .tab a:hover
+{
+	color:#006699;
+}
+
+.page_tab .tab_on
+{
+	height:20px;
+	line-height:17px;
+	background:url('../images/tab_l.gif') no-repeat 0 -24px;
+	letter-spacing:1px;
+}
+
+.page_tab .tab_on a:link,.tab_on a:visited,.tab_on a:active,.tab_on a:hover
+{
+	text-decoration:none;
+	background:url('../images/tab_r.gif') no-repeat right -24px;
+	color:#FFFFFF;
+	padding:4px 15px 1px 15px;
+	display:block;
+}
+
+.page_tab .tab_return
+{
+	height:20px;
+	line-height:15px;
+	letter-spacing:1px;
+	padding-left:50px;
+}
+
+.main
+{
+	width:980px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.main .row 
+{
+	width:100%;
+	float:left;
+	height:auto;
+}

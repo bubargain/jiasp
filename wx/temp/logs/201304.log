@@ -1,0 +1,3 @@
+Tue, 02 Apr 2013 16:43:31 +0800	[256]MySQL Error[1146]: Table 'weixin.bag' doesn't exist
+MySQL Query:select id,name,brand,place,Season,price,Specification,Item,Material,Products,Popular,likes,pic from bag where name like '%%' or brand like '%%' or Products like '%%' order by rand() limit 0,5
+Wrong File:  D:\YOKA\HTML\www.newb2b2c.cc\service\weixin\mvc\lib\dbmysql.lib.php[572]	D:\YOKA\HTML\www.newb2b2c.cc\service\weixin\mvc\lib\dbmysql.lib.php	269

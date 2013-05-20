@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>关键词列表-关键词管理</title>
+</head>
+
+<body>
+<form method="post" action="index.php?c=keys&a=save">
+    <div>
+        <ul>
+            <li>关键词1：<input type="text" name="keys[]">  关键词2：<input type="text" name="keys[]">  关键词3：<input type="text" name="keys[]"><input type="submit" value="保存"></li>
+        </ul>
+    </div>
+</form>
+<div>
+    {foreach from=$list item=item}
+    <ul>
+        <li>id:= {$item.id}, keys:= {$item.keys} <a href="index.php?c=keys&a=search&keys={$item.keys}" set-data="{$item.id}">刷新推荐资讯</a></li>
+    </ul>
+    {/foreach}
+</div>
+</body>
+</html>

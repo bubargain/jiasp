@@ -1,0 +1,32 @@
+/* 
+
+	TableCloth	
+	by Alen Grakalic, brought to you by cssglobe.com
+	
+*/
+
+/* general styles */
+
+table.otb, .otb td{
+	font:100% Arial, Helvetica, sans-serif; 
+}
+table.otb{width:98%;border-collapse:collapse;margin:1em 0;}
+.otb th, .otb td{text-align:left;padding:.5em;border:1px solid #fff;}
+.otb th{background:#328aa4 url(tr_back.gif) repeat-x;color:#fff;}
+.otb td{background:#e5f1f4;}
+
+/* tablecloth styles */
+
+.otb tr.even td{background:#E8E8E8;}
+.otb tr.odd td{background:#fff;}
+
+.otb th.over, .otb tr.even th.over, .otb tr.odd th.over{background:#4a98af;}
+.otb th.down, .otb tr.even th.down, .otb tr.odd th.down{background:#bce774;}
+.otb th.selected, .otb tr.even th.selected, .otb tr.odd th.selected{}
+
+.otb td.over, .otb tr.even td.over, .otb tr.odd td.over{background:#ecfbd4;}
+.otb td.down, .otb tr.even td.down, .otb tr.odd td.down{background:#bce774;color:#fff;}
+.otb td.selected, .otb tr.even td.selected, .otb tr.odd td.selected{background:#bce774;color:#555;}
+
+/* use this if you want to apply different styleing to empty table cells*/
+/*.otb td.empty, .otb tr.odd td.empty, .otb tr.even td.empty{background:#fff;}*/

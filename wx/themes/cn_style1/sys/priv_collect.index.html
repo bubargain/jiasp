@@ -1,0 +1,269 @@
+{include file="../header1.html"}
+<link href="/admin/js/jquery.ui/jquery-ui-1.8.16.custom.css" rel="stylesheet" />
+<script type="text/javascript" src="/admin/js/jquery.ui/jquery-ui-1.8.16.custom.min.js" charset="utf-8"></script>
+<link type="text/css" rel="stylesheet" href="themes/cn_style1/css/index.css" />
+
+<style type="text/css">
+
+.ui-widget-header
+{
+	border:none;
+	margin:0px;
+	background: url("/includes/libraries/javascript/jquery.plugins/jquery.jmpopups/images/bgr_popup_header.jpg") repeat-x scroll 0 0 transparent;
+	color:#000;
+	height: 24px;
+	line-height:20px;
+	padding:7px;
+	font-size:20px;
+	font-weight:normal;
+}
+
+.ui-widget-content
+{
+	background:#fff;
+}
+
+.ui-corner-all
+{
+	border-radius:0;
+}
+
+.ui-dialog
+{
+	padding:1px;
+	border:#333 solid 1px;
+	background: none repeat scroll 0 0 #FFFFFF;
+	overflow: hidden;
+	border-radius: 3px 3px 3px 3px;
+	box-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+}
+
+.ui-dialog-buttonset
+{
+	text-align:center;
+	width:100%;
+}
+
+.ui-dialog-buttonset button
+{
+	width:100px;
+	height:28px;
+}
+
+.ui-helper-clearfix:after
+{
+	display:none;
+}
+
+.listview .listview_tab
+{
+	width:100%;
+	height:36px;
+	background-color:#e8e8e8;
+	float:left;
+}
+
+.listview
+{
+	height:507px;
+}
+
+.listview .listview_tab li
+{
+	width:90px;
+	height:26px;
+	line-height:26px;
+	display:block;
+	float:left;
+	margin-left:5px;
+	margin-top:9px;
+	border:#c5c5c5 solid 1px;
+	border-bottom:none;
+	text-align:center;
+	background-color:#FFF;
+	border-radius: 4px 4px 0 0;
+	font-size:14px;
+	font-weight:bold;
+	background-color:#EBEBEB;
+}
+
+.listview .listview_tab li a
+{
+	width:90px;
+	height:26px;
+	display:block;
+    cursor: pointer;
+	color:#333;
+	text-decoration:none;
+	font-size:12px;
+	font-weight:normal;
+}
+
+.listview .listview_tab .tab_active
+{
+	height:30px;
+	line-height:30px;
+	margin-top:6px;
+	border:#2875b9 solid 1px;
+	border-bottom:none;
+	background-color:#FFF;
+}
+
+.listview .listview_data ul
+{
+	height:30px;
+	border-bottom:#ccf;
+}
+
+.listview .listview_data li
+{
+	height:30px;
+	line-height:30px;
+	border-bottom:#ccf solid 1px;
+	border-right:#ccf solid 1px;
+}
+
+.listview .listview_data .li_ck
+{
+	width:30px;
+	height:30px;
+}
+
+.listview .listview_data .li_collect_name
+{
+	width:250px;
+	padding-left:4px;
+	text-align:center;
+	line-height:30px;
+}
+
+.listview .listview_data .li_action
+{
+	width:30%;
+	padding-left:4px;
+	text-align:center;
+	line-height:30px;
+}
+
+.listview .listview_data .li_sort_order
+{
+	width:80px;
+	padding-left:4px;
+	text-align:center;
+	line-height:30px;
+}
+
+.listview .listview_data .li_operation
+{
+	width:120px;
+	padding-left:4px;
+	text-align:center;
+	line-height:30px;
+}
+
+.ui-dialog .ui-dialog-content
+{
+	padding:0px;
+}
+
+.ui-widget-header
+{
+	height:22px;
+}
+
+.readonly_edit
+{
+	float:left;
+	color:#333;
+	background-color:#eee;
+	border:#000 solid 1px;
+	width:150px;
+	margin-top:2px;
+	display:inline;
+	padding:2px;
+}
+
+</style>
+
+<div class="page_tab">
+	<table cellpadding="0" cellspacing="0">
+		<tr>
+			<td width="10">&nbsp;</td>
+			<td id="Tab1" class="tab_on"><a href="#" >顶级菜单管理</a></td>
+			<td id="Tab1" class="tab"><a href="/admin/index.php?c=sys_priv_collect&a=add" >添加新菜单</a></td>
+			<td class="tab_nav">&nbsp;</td>
+		</tr>
+	</table>
+</div>
+
+<div class="listview">
+	<div class="listview_title" style="clear:both;">顶级菜单列表</div>
+	<div class="listview_data">
+		<ul class="list_title" id="div_list_title">
+			<li class="li_ck"><input type="checkbox" class="checkall" /></li>
+			<li class="li_collect_name">顶级菜单名称</li>
+			<li class="li_action">默认url</li>
+			<li class="li_sort_order">次序</li>
+			<li class="li_operation" style="padding-top:0px; padding-bottom:0px;">操作</li>
+		</ul>
+		<!--{foreach from=$priv_collect_data item=item}-->
+		<ul id="ul_row_{$item.collect_id}">
+			<li class="li_ck"><input type="checkbox" id="ck_items_{$item.collect_id}" name="ck_items" class="checkitem" value="{$item.collect_id}" /></li>
+			<li class="li_collect_name">{$item.collect_name}</li>
+			<li class="li_action">{$item.action}</li>
+			<li class="li_sort_order">{$item.sort_order}</li>
+			<li class="li_operation">
+				<span style="width:130px;">
+					<a href="/admin/index.php?c=sys_priv_collect&a=view&collect_id={$item.collect_id}">查看</a>&nbsp;&nbsp;
+					<a href="/admin/index.php?c=sys_priv_collect&a=change&collect_id={$item.collect_id}">修改</a>&nbsp;&nbsp;
+					<a href="javascript:;" onClick="btn_delete_OnClick({$item.collect_id});return false;">删除</a>
+				</span>
+			</li>
+		</ul>
+		<!--{/foreach}-->
+	</div>
+	<div class="listview_operation">
+		<input type="checkbox" class="checkall" />
+		<input type="button" class="btn3" id="btn_deletebatch" name="btn_deletebatch" value="删除" onClick="btn_deletebatch_Onclick();return false;" />
+	</div>
+	<div class="listview_page">
+		{$page_html}
+	</div>
+</div>
+
+
+<script type="text/javascript">
+
+function btn_delete_OnClick(collect_id)
+{
+	if(confirm('是否确认要删除这个顶级菜单?'))
+	{
+		location.href="index.php?c=sys_priv_collect&a=delete&collect_id=" + collect_id + "&lsh=" + getLsh();
+	}
+}
+
+function btn_deletebatch_Onclick()
+{
+	var collect_ids="";
+	$("[name='ck_items'][checked]:checkbox").each(function(){
+		collect_ids+=$(this).val()+",";
+	});
+	if(collect_ids!="")
+	{
+		//确认是否要删除
+		if(confirm('是否确认要删除选中的顶级菜单?'))
+		{
+			collect_ids=collect_ids.substring(0,collect_ids.length-1);
+			var url="index.php?c=sys_priv_collect&a=deletebatch&collect_ids=" + collect_ids + "&lsh=" + getLsh();
+			location.href=url;
+		}
+	}
+	else
+	{
+		alert("请选择要批量删除的行！");
+	}
+}
+
+</script>
+
+{include file="../footer1.html"}

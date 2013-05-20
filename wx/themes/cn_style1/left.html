@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="/admin/js/jquery/jquery.js"></script>
+<script type="text/javascript" src="/admin/js/kendoui/js/kendo.web.min.js"></script>
+<link rel="stylesheet" href="/admin/js/kendoui/styles/kendo.common.min.css" />
+<link rel="stylesheet" href="/admin/js/kendoui/styles/kendo.default.min.css" />
+
+<style type="text/css">
+body
+{
+    color: #454545;
+	font-size:12px;
+	background-color:#F4F9FF;
+}
+
+.menu
+{
+    border: none;
+}
+
+#header20
+{
+	height:40px;
+	background:#3D3E41;
+	margin-bottom:20px;
+}
+
+#menu20 a
+{
+	color:#264D84;
+	text-decoration:none;
+}
+
+#right20
+{
+	float:left;
+	background:#E4E4E4;
+	height:auto;
+	min-height:200px;
+	width:80%;
+	padding-left:20px;
+	padding-top:8px;
+	margin-left:18px;
+}
+
+#hidden20
+{
+	background:red;
+	height:20px;
+}
+
+#jiantou
+{
+    background: url(/admin/images/pagination_first.gif) no-repeat scroll 0 0 transparent;
+    height: 20px;
+    left: 90%;
+    position: absolute;
+    top: 50%;
+    width: 20px;
+}
+
+#rjiantou
+{
+    background: url(/admin/images/pagination_last.gif) no-repeat scroll 0 0 transparent;
+    height: 20px;
+    left: 1%;
+    position: absolute;
+    top: 50%;
+    width: 20px;
+}
+
+</style>
+
+<style scoped>
+
+.demo-section
+{
+	width: 200px;
+}
+
+#treeview .k-sprite
+{
+}
+
+.root
+{
+	background-image:url(/admin/images/tree/1a.gif);
+}
+
+.folder
+{
+	background-image:url(/admin/images/tree/folder.gif);
+}
+
+.childfolder
+{
+	background-image:url(/admin/images/tree/2.gif);
+}
+
+.item
+{
+	background-image:url(/admin/images/tree/4.gif);
+}
+
+</style>
+
+</head>
+<body>
+	<div id="menu20">
+		<div id="jiantou"><a href="#"><img src="/admin/images/pagination_first.gif" alt="收起侧边栏" id="hidden-a"/></a></div>
+		<div id="rjiantou" style="display:none;"><a href="#"><img src="/admin/images/pagination_last.gif" alt="展开侧边栏" id="show-a"/></a></div>
+			<ul id="treeview">
+				<li data-expanded="true">
+					<span class="k-sprite root"></span>
+					后台管理系统
+					<ul>
+						<li data-expanded="true">
+							<span class="k-sprite folder"></span>系统管理
+							<ul>
+								<li data-expanded="true">
+									<span class="k-sprite childfolder"></span>权限管理
+									<ul>
+										<li paid="001"><span class="k-sprite item"></span>功能菜单</li>
+										<li paid="002"><span class="k-sprite item"></span>系统管理员组</li>
+										<li paid="003"><span class="k-sprite item"></span>系统管理员</li>
+									</ul>
+								</li>
+								<li data-expanded="true"><span class="k-sprite childfolder"></span>欢迎页面</li>
+								<li data-expanded="true"><span class="k-sprite childfolder"></span>关于我们</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>网站设置</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>会员管理</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>店铺管理</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>商品管理</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>订单管理</li>
+							</ul>
+						</li>
+						
+						<li data-expanded="true">
+							<span class="k-sprite folder"></span>设置
+							<ul>
+								<li data-expanded="true"><span class="k-sprite childfolder"></span>网站设置</li>
+								<li data-expanded="true"><span class="k-sprite childfolder"></span>地区设置</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>支付方式</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>配送方式</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>主题设置</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>模板编辑</li>
+								<li data-expanded="true"><span class="k-sprite childfolder"></span>页面管理</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>通知模板</li>
+							</ul>
+						</li>
+                        
+						<li data-expanded="true">
+							<span class="k-sprite folder"></span>商品
+							<ul>
+								<li data-expanded="true"><span class="k-sprite childfolder"></span>分类管理</li>
+								<li data-expanded="true"><span class="k-sprite childfolder"></span>商品(属性/规格)管理</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>搜索权重设定</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>搜索别名设定</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>品牌管理</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>商品管理</li>
+								<li data-expanded="true"><span class="k-sprite childfolder"></span>推荐类型</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>商品类型</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>批量移动商品分类</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>批量导入商品</li>
+								<li data-expanded="true"><span class="k-sprite childfolder"></span>日志查询</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>同步化妆品库数据</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>前端静态页商品监控</li>
+							</ul>
+						</li>
+                        
+						<li data-expanded="true">
+							<span class="k-sprite folder"></span>店铺
+							<ul>
+								<li data-expanded="true"><span class="k-sprite childfolder"></span>店铺等级</li>
+								<li data-expanded="true"><span class="k-sprite childfolder"></span>店铺分类</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>店铺管理</li>
+							</ul>
+						</li>
+                        
+						<li data-expanded="true">
+							<span class="k-sprite folder"></span>会员
+							<ul>
+								<li data-expanded="true"><span class="k-sprite childfolder"></span>会员管理</li>
+								<li data-expanded="true"><span class="k-sprite childfolder"></span>管理员管理</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>会员通知</li>
+							</ul>
+						</li>
+                        
+						<li data-expanded="true">
+							<span class="k-sprite folder"></span>交易
+							<ul>
+								<li data-expanded="true"><span class="k-sprite childfolder"></span>订单管理</li>
+								<li data-expanded="true"><span class="k-sprite childfolder"></span>预订管理</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>投诉管理</li>
+								<li data-expanded="true"><span class="k-sprite childfolder"></span>商家结算</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>买家退款</li>
+							</ul>
+						</li>
+                        
+						<li data-expanded="true">
+							<span class="k-sprite folder"></span>网站
+							<ul>
+								<li data-expanded="true"><span class="k-sprite childfolder"></span>文章分类</li>
+								<li data-expanded="true"><span class="k-sprite childfolder"></span>文章管理</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>合作伙伴</li>
+								<li data-expanded="true"><span class="k-sprite childfolder"></span>页面导航</li>
+								<li data-expanded="true"><span class="k-sprite childfolder"></span>数据库</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>团购管理</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>咨询管理</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>分享链接</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>内容管理</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>商品风格</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>设计师</li>
+							</ul>
+						</li>
+                        
+						<li data-expanded="true">
+							<span class="k-sprite folder"></span>扩展
+							<ul>
+								<li data-expanded="true"><span class="k-sprite childfolder"></span>插件管理</li>
+								<li data-expanded="true"><span class="k-sprite childfolder"></span>模块管理</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>挂件管理</li>
+								<li data-expanded="true"><span class="k-sprite childfolder"></span>计划任务管理</li>
+								<li data-expanded="true"><span class="k-sprite childfolder"></span>数据分析</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>关键词统计</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>特卖BBS整合</li>
+                                <li data-expanded="true"><span class="k-sprite childfolder"></span>投票、问答</li>
+							</ul>
+						</li>
+
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
+
+<script type="text/javascript">
+
+var treeview=null;
+
+$(document).ready(function(){
+	function onSelect(e)
+	{
+		var menu_id=$(e.node).attr("paid");
+		menu(menu_id);
+	}
+	treeview = $("#treeview").kendoTreeView({
+		select: onSelect
+	});
+	$("#hidden-a").click(function(){
+		$('#iframe20', parent.document).attr("cols","1%,99%");
+		$("#rjiantou").show();
+		$("#jiantou").hide();
+		$("#tt1").hide();
+	});
+	$("#show-a").click(function(){
+		$("#iframe20",window.parent.document).attr("cols","15%,75%");
+		$("#rjiantou").hide();
+		$("#jiantou").show();
+		$("#tt1").show();
+	});
+});
+
+function menu(menu_id)
+{
+	switch(menu_id)
+	{
+		case '001':		//功能菜单
+			window.parent.mainFrame.location.href="index.php?c=priv_actions";
+			break;
+		case '002':		//系统管理员组
+			window.parent.mainFrame.location.href="./includes/shouyeshezhi.html";
+			break;
+		case '003':		//系统管理员
+			window.parent.mainFrame.location.href="./includes/shangpinguanli.html";
+			break;
+	}
+}
+</script>

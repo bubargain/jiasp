@@ -1,0 +1,10 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2013-05-09 03:36:00 --> test
+
+
+
+ERROR - 2013-05-09 03:36:36 --> test
+
+
+

@@ -1,0 +1,282 @@
+/* CSS Document */
+
+.listview
+{
+	width:100%;
+	float:left;
+	height:auto;
+}
+
+.listview .listview_title
+{
+	height:25px;
+	line-height:25px;
+	background: url(../images/tt.gif) repeat-x;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFF;
+	padding-left:10px;
+}
+
+.listview .listview_data
+{
+	width:100%;
+	float:left;
+	height:auto;
+	border-bottom:#CCC solid 1px;	
+}
+
+.listview .listview_control
+{
+	width:100%;
+	float:left;
+	height:36px;
+	line-height:32px;
+	padding-top:4px;
+}
+
+.listview .listview_operation
+{
+	height:24px;
+	line-height:24px;
+	font-size:12px;
+	color:#666666;
+	float:left;
+	width:100%;
+	padding-top:6px;
+	padding-left:9px;
+	padding-bottom:6px;
+}
+
+.listview .listview_page
+{
+	height:36px;
+	line-height:36px;
+	padding:10px 0 10px 0;
+	text-align:center;
+	font-size:12px;
+	color:#666666;
+	float:left;
+	width:100%;
+}
+.listview .listview_page a:link,.listview .listview_page a:visited,.listview .listview_page a:active{color:#004499;background:#FFFFFF;border:#9AAFE5 1px solid;padding:1px;text-decoration:none;}
+.listview .listview_page a:hover{background:#FFFFFF;border:#2E6AB1 1px solid;color:#FF6600;padding:1px;text-decoration:none;}
+.listview .listview_page strong{background:#2E6AB1;padding:1px;border:#1D589E 1px solid;color:#FFFFFF;}
+.listview .pages_inp{border:#2E6AB1 1px solid;padding:1px;width:30px;text-align:center;color:#666666;}
+.listview .pages_btn{width:26px;background:#F1F7FC;border:#2E6AB1 1px solid;color:#004499;font-weight:bold;font-size:11px;}
+.listview .listview_page label{background:#FFFFFF;border:#2E6AB1 1px solid;color:#004499;padding:1px 5px 1px 5px;}
+.listview .listview_page label em{color:red;font-weight:bold;font-style:normal;}
+.listview .listview_page label span{font-weight:bold;}
+.listview .listview_page cite {font-style:normal;}
+
+.listview .listview_data ul
+{
+	width:100%;
+	float:left;
+	height:30px;
+	border-bottom:#FFF solid 1px;
+	display:inline;
+}
+
+.listview .listview_data .list_title
+{
+	background:url(../images/bg.gif) repeat-x;
+	font-weight:bold;
+	height:24px;
+	line-height:24px;
+	letter-spacing:1px;
+	color:#555F73;
+}
+
+.listview .listview_data .list_title li
+{
+	height:24px;
+	line-height:24px;
+	color:#555F73;
+}
+
+.listview .listview_data li
+{
+	float:left;
+	height:30px;
+	line-height:30px;
+	list-style-type:none;
+	border-right:#FFF solid 1px;
+}
+
+.listview .listview_data .li_ck
+{
+	width:32px;
+	padding-left:10px;
+	height:21px;
+	line-height:21px;
+	display:inline;
+}
+
+.listview .listview_data .li_ck .checkall
+{
+	margin-top:6px;
+	float:left;
+}
+
+.listview .listview_data .li_ck .checkitem
+{
+	margin-top:8px;
+	float:left;
+}
+
+.listview .listview_data .li_operation
+{
+	width:10%;
+	padding-left:10px;
+}
+
+.listview .listview_tab
+{
+	width:100%;
+	height:36px;
+	background-color:#e8e8e8;
+	float:left;
+}
+
+.ui-widget-header
+{
+	border:none;
+	margin:0px;
+	background: url("/includes/libraries/javascript/jquery.plugins/jquery.jmpopups/images/bgr_popup_header.jpg") repeat-x scroll 0 0 transparent;
+	color:#000;
+	height: 24px;
+	line-height:20px;
+	padding:7px;
+	font-size:20px;
+	font-weight:normal;
+}
+
+.ui-widget-content
+{
+	background:#fff;
+}
+
+.ui-corner-all
+{
+	border-radius:0;
+}
+
+.ui-dialog
+{
+	padding:1px;
+	border:#333 solid 1px;
+	background: none repeat scroll 0 0 #FFFFFF;
+	overflow: hidden;
+	border-radius: 3px 3px 3px 3px;
+	box-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+}
+
+.ui-dialog-buttonset
+{
+	text-align:center;
+	width:100%;
+}
+
+.ui-dialog-buttonset button
+{
+	width:100px;
+	height:28px;
+}
+
+.ui-helper-clearfix:after
+{
+	display:none;
+}
+
+.listview .listview_tab li
+{
+	width:90px;
+	height:26px;
+	line-height:26px;
+	display:block;
+	float:left;
+	margin-left:5px;
+	margin-top:9px;
+	border:#c5c5c5 solid 1px;
+	border-bottom:none;
+	text-align:center;
+	background-color:#FFF;
+	border-radius: 4px 4px 0 0;
+	font-size:14px;
+	font-weight:bold;
+	background-color:#EBEBEB;
+}
+
+.listview .listview_tab li a
+{
+	width:90px;
+	height:26px;
+	display:block;
+    cursor: pointer;
+	color:#333;
+	text-decoration:none;
+	font-size:12px;
+	font-weight:normal;
+}
+
+.listview .listview_tab .tab_active
+{
+	height:30px;
+	line-height:30px;
+	margin-top:6px;
+	border:#2875b9 solid 1px;
+	border-bottom:none;
+	background-color:#FFF;
+}
+
+.listview .listview_data ul
+{
+	height:30px;
+	border-bottom:#ccf;
+}
+
+.listview .listview_data li
+{
+	height:30px;
+	line-height:30px;
+	border-bottom:#ccf solid 1px;
+	border-right:#ccf solid 1px;
+}
+
+.listview .listview_data .li_ck
+{
+	width:30px;
+	height:30px;
+}
+
+.listview .listview_data .li_operation
+{
+	width:120px;
+	padding-left:4px;
+	text-align:center;
+	line-height:30px;
+}
+
+
+.ui-dialog .ui-dialog-content
+{
+	padding:0px;
+}
+
+.ui-widget-header
+{
+	height:22px;
+}
+
+.readonly_edit
+{
+	float:left;
+	color:#333;
+	background-color:#eee;
+	border:#000 solid 1px;
+	width:150px;
+	margin-top:2px;
+	display:inline;
+	padding:2px;
+}

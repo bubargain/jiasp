@@ -1,0 +1,98 @@
+{include file="header.html"}
+
+<link type="text/css" rel="stylesheet" href="templates/style/form.css" />
+
+<script language="JavaScript" type="text/javascript" src="/includes/libraries/javascript/jquery.form.js"></script>
+<script language="JavaScript" type="text/javascript" src="/includes/libraries/javascript/jquery.plugins/jquery.validate1.js"></script>
+<script language="JavaScript" type="text/javascript" src="/includes/libraries/javascript/jquery.plugins/jquery.validate.messages_cn.js"></script>
+
+<div class="page_tab">
+	<table cellpadding="0" cellspacing="0">
+		<tr>
+			<td width="10">&nbsp;</td>
+			<td id="Tab0" class="tab_on"><a href="#" >添加菜单</a></td>
+			<td class="tab_nav">&nbsp;</td>
+			<td id="Tab1" class="tab"><a href="/admin/index.php?c=priv_actions" >菜单管理</a></td>
+			<td class="tab_nav">&nbsp;</td>
+		</tr>
+	</table>
+</div>
+
+<div class="main">
+<div class="row" id="data">
+	<div class="setup_name">添加属性</div>
+	<form id="form_setup" name="form_setup" action="/admin/index.php?app=property_name&act=save" method="post" >
+	<input type="hidden" id="hi_form_type" name="hi_form_type" value="{$form_type}" />
+	<input type="hidden" id="hi_pid" name="hi_pid" value="{$data.pid}" />
+	<div class="setup_data">
+		<div class="content" style="margin-top:10px;">
+			<div class="content_name">属性名称</div>
+			<div class="content_input">
+				<input type="text" id="e_pname" name="e_pname" class="inputbox" style="width:200px" maxlength="100" value="{$data.pname}" />
+			</div>
+			<div class="content_infobox">
+				<label class="error reminder" generated="true" for="e_pname" style="display: none;"></label>
+			</div>
+		</div>
+		<div class="content">
+			<div class="content_name">属性状态</div>
+			<div class="content_input">
+				<select id="combo_status" name="combo_status" style="width:212px;">
+					<option value="1" {if $data.status==1}selected="selected"{/if}>有效</option>
+					<option value="0" {if $data.status==0}selected="selected"{/if}>停用</option>
+				</select>
+			</div>
+			<div class="content_infobox">
+				<label class="error reminder" generated="true" for="combo_status" style="display: none;"></label>
+			</div>
+		</div>
+		<div class="content" style="clear:both;">
+			<div class="content_name">&nbsp;</div>
+			<div class="content_input" style="width:600px;">
+				<input type="checkbox" id="ck_is_ext" name="ck_is_ext" {if $data.is_ext}checked="checked"{/if} /><label for="ck_is_ext">包含颜色或图案扩展选项</label>
+				<input type="checkbox" id="ck_is_model" name="ck_is_model" {if $data.is_model}checked="checked"{/if} /><label for="ck_is_model">作为规格型号</label>
+			</div>
+		</div>
+		
+	</div>
+	
+	<div class="setup_submit">
+		<input type="submit" id="btn_save" value="保 存" class="btn" style="margin-left:220px;" />
+		<input type="button" id="btn_return" value="返 回" class="btn" onclick="window.location='/admin/index.php?app=property_name';"/>
+	</div>
+	
+	</form>
+
+</div>
+	
+</div>
+
+
+<script type="text/javascript">
+/*
+$(document).ready(function(){
+	$("#form_setup").validate({
+		rules:{
+            e_pname: {
+                required: true,
+                remote : {
+                    url  : "/admin/index.php?app=property_name&act=check_pname",
+                    type : "get",
+                    data : {
+                        pname : function(){
+                            return $('#e_pname').val();
+                        },
+						pid : "{$data.pid}"
+                    }
+                }
+            }
+		},
+		success: function(label) {
+		      label.addClass("valid").text("正确");
+	    }
+	});
+});
+*/
+</script>
+
+{include file="footer.html"}

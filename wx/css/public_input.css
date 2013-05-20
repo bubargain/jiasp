@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+
+.inputmain
+{
+	margin:0px;
+	padding:0px;
+	background-color:#FFF;
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	float:left;
+	display:inline;
+}
+
+.inputmain .content
+{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:auto;
+	float:left;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+.inputmain .content .name
+{
+	margin:0px;
+	padding:0px;
+	float:left;
+	width:200px;
+	height:26px;
+	line-height:26px;
+}
+
+.inputmain .content .name .text
+{
+	margin:0px;
+	padding:0px;
+	float:right;
+	margin-right:4px;
+}
+
+.inputmain .content .input
+{
+	margin:0px;
+	padding:0px;
+	float:left;
+	width:220px;
+	height:23px;
+	margin-top:3px;
+	display:inline;
+}
+
+.inputmain .content .img_null
+{
+	margin:0px;
+	padding:0px;
+	float:left;
+	width:28px;
+	height:20px;
+	margin-top:5px;
+	display:inline;
+}
+
+.inputmain .content .img_visable
+{
+	margin:0px;
+	padding:0px;
+	float:left;
+	width:28px;
+	height:20px;
+	margin-top:5px;
+	display:inline;
+}
+
+.inputmain .content .img_error
+{
+	margin:0px;
+	padding:0px;
+	float:left;
+	width:28px;
+	height:20px;
+	margin-top:5px;
+	display:inline;
+}
+
+.inputmain .content .info
+{
+	color:#999999;
+	margin:0px;
+	padding:3px;
+	font-size:12px;
+	float:left;
+	width:510px;
+	text-align:left;
+	height:auto;
+	line-height:12px;
+	margin-top:2px;
+	display:inline;
+}
+
+.inputmain .content .note
+{
+	margin:0px;
+	padding:3px;
+	font-size:12px;
+	float:left;
+	width:510px;
+	text-align:left;
+	height:auto;
+	line-height:12px;
+	margin-top:2px;
+	display:inline;
+	color:#999999;
+}
+
+.inputmain .content .notetrue
+{
+	margin:0px;
+	padding:3px;
+	border:#485e00 1px solid;
+	font-size:12px;
+	float:left;
+	width:510px;
+	color:#485e00;
+	text-align:left;
+	height:auto;
+	line-height:12px;
+	margin-top:2px;
+	display:inline;
+}
+
+.inputmain .content .noteawoke
+{
+	margin:0px;
+	padding:3px;
+	font-size:12px;
+	float:left;
+	width:510px;
+	text-align:left;
+	height:auto;
+	line-height:12px;
+	margin-top:2px;
+	display:inline;
+	color:#485e00;	
+	border:#ff7300 1px solid;
+}
+
+.inputmain .content .clearboth
+{
+	clear:both;
+}
+
+

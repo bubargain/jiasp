@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* CSS Document */
+#data
+{
+	width:100%;
+	height:auto;
+	float:left;
+	margin-bottom:30px;
+	display:inline;
+}
+
+#data .setup_name
+{
+	height:25px;
+	line-height:25px;
+	background: url('/admin/themes/cn_style1/images/tt.gif') repeat-x;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFF;
+	padding-left:10px;	
+}
+
+#data .setup_data
+{
+	height:auto;
+	float:left;
+	display:inline;
+}
+
+#data .setup_data .content
+{
+	width:100%;
+	height:38px;
+	float:left;
+	display:inline;
+	border-bottom:#FFF solid 1px;
+}
+
+#data .setup_data .green
+{
+	background-color:#F7FDF0;
+}
+
+#data .setup_data .content .content_name
+{
+	width:202px;
+	height:34px;
+	line-height:34px;
+	float:left;
+	text-align:right;
+	padding-top:3px;
+	padding-right:4px;
+	margin-right:4px;
+	border-right:#FFF solid 1px;
+	color:#999;
+}
+
+#data .setup_data .content .content_inputx
+{
+	width:510px;
+	height:23px;
+	line-height:22px;
+	float:left;
+	margin-left:1px;
+	margin-top:4px;
+	display:inline;
+	padding-top:5px;
+}
+
+#data .setup_data .content .content_input
+{
+	width:210px;
+	height:23px;
+	line-height:22px;
+	float:left;
+	margin-left:1px;
+	margin-top:4px;
+	display:inline;
+	padding-top:5px;
+}
+
+#data .setup_data .content .content_display
+{
+	width:510px;
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    margin-right: 4px;
+    padding-right: 4px;
+    padding-top: 3px;
+}
+
+#data .setup_data .content .content_img
+{
+	width:22px;
+	height:22px;
+	margin-top:6px;
+	display:inline;
+	float:left;
+}
+
+#data .setup_data .content .content_img_null
+{
+	width:22px;
+	height:22px;
+	margin-top:6px;
+	display:inline;
+	float:left;
+	visibility:hidden;
+}
+
+#data .setup_data .content .content_img_visible
+{
+	width:22px;
+	height:22px;
+	margin-top:6px;
+	display:inline;
+	float:left;
+}
+
+#data .setup_data .content .content_notetrue
+{
+	width:280px;
+	height:22px;
+	line-height:22px;
+	float:left;
+	margin-top:5px;
+	border:#485E00 solid 1px;
+	padding-left:2px;
+}
+
+#data .setup_data .content .content_infobox
+{
+	width:280px;
+	height:18px;
+	float:left;
+	padding-left:2px;
+	margin-top:5px;
+	display:inline;
+	color:#999999;
+}
+
+#data .setup_data .content .content_infobox label
+{
+	width: 10em;
+	float: left;
+	padding:0px;
+	margin-top:0px;
+}
+
+#data .setup_data .content .content_infobox label.error 
+{
+	color: red;
+	vertical-align: top;
+	float:left;
+	background: url('/admin/themes/cn_style1/images/onError.gif') no-repeat;
+	height:18px;
+	line-height:18px;
+	float:left;
+	padding-left:20px;
+	width:250px;
+}
+
+#data .setup_data .content .content_infobox label.valid
+{
+	background: url('/admin/themes/cn_style1/images/onCorrect.gif') no-repeat;
+	height:18px;
+	line-height:18px;
+	color:#090;
+	float:left;
+	padding-left:20px;
+}
+
+#data .setup_data .control
+{
+	width:70%;
+	height:30px;
+	float:left;
+	padding-left:140px;
+	display:inline;
+	margin-left:5px;
+	border-top:#F2F2F2 solid 1px;
+	padding-top:10px;
+}
+
+#data .setup_submit
+{
+	width:100%;
+	margin-top:10px;
+	float:left;
+	padding-bottom:50px;
+	display:inline;
+}

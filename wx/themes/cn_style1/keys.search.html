@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>关键词新闻列表-关键词管理</title>
+</head>
+
+<body>
+<div>
+    {foreach from=$list key=key item=rows}
+    <ul>
+        <li>===={$key}====</li>
+        {foreach from=$rows item=item}
+        <li>id:= {$item.id}, title:= {$item.title} <input type="button" class="fresh" set-data="{$item.id}"></li>
+        {/foreach}
+    </ul>
+    {/foreach}
+</div>
+<script type="text/javascript" src="http://mj1.yokacdn.com//includes/libraries/javascript/jquery-1.7.1.min.js" charset="utf-8"></script>
+<script>
+(function(){//index.php?c=count&a=day
+    $(".fresh").click(function(){
+        var url = 'index.php?c=keys&a=ajaxRefresh&id='+$(this).attr('set-data');
+        $.get(url, function(data) {
+            window.location.reload();
+        });
+    })
+
+})();
+</script>
+</body>
+</html>

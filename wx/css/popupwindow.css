@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+div.sample_popup { z-index: +1; }
+div.menu_form_header
+{
+	cursor:move;
+}
+
+div.sample_popup div.menu_form_header
+{
+	border-bottom: 0px;
+	cursor: default;
+	cursor:move;
+	width: 387px;
+	height: 20px;
+	line-height:24px;
+	vertical-align: middle;
+	background:#243F80;
+	color:#FFF;
+	text-decoration: none;
+	font-weight: 900;
+	font-size: 13px;
+	padding-left:10px;
+	overflow:hidden;
+}
+
+div.sample_popup div.menu_form_body
+{
+	border:#93BEDE solid 1px;
+	width: 395px;
+	background:#FFF;
+	font-size:12px;
+	
+}
+
+div.sample_popup img.menu_form_exit
+{
+	float: right;
+	margin: 4px 4px 0px 0px;
+	cursor: pointer;
+}
+
+div.sample_popup div.menu_form_body .form
+{
+	background-color:#E7F5FF;
+	margin: 0px;
+	padding: 8px 10px 10px 10px;
+}
+
+.menu_form_body a 
+{
+	text-decoration: none;
+}
+

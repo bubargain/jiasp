@@ -1,0 +1,258 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.note 
+{
+	BORDER: #ffffff 1px solid;
+	PADDING: 3px;
+	FONT-SIZE: 12px;
+	BACKGROUND: #ffffff;
+	FLOAT: right;
+	WIDTH: 240px;
+	COLOR: #999999;
+	LINE-HEIGHT: 130%;
+	TEXT-ALIGN: left;
+}
+
+div.notetrue 
+{
+	BORDER: #485e00 1px solid;
+	PADDING: 3px;
+	FONT-SIZE: 12px;
+	BACKGROUND: #f7ffdd;
+	FLOAT: right;
+	WIDTH: 240px;
+	COLOR: #485e00;
+	LINE-HEIGHT: 130%;
+	TEXT-ALIGN: left;
+	margin-right:10px;
+}
+
+div.noteawoke 
+{
+	BORDER: #ff7300 1px solid;
+	PADDING: 3px;
+	FONT-SIZE: 12px;
+	FLOAT: right;
+	MARGIN: 0px;
+	WIDTH: 240px;
+	LINE-HEIGHT: 130%;
+	TEXT-ALIGN: left;
+}
+
+#header
+{
+	background-color:#0000CC;
+	border-top-style:dashed;
+	color:#A9B8C2;
+}
+
+#footer
+{
+	background-color:#0000CC;
+	border-bottom-style:dashed;
+	color:#A9B8C2;
+}
+
+.FckEdit
+{
+	WIDTH: 100%;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+#main
+{
+	PADDING: 0px;
+	WIDTH: 778px;
+}
+
+#main div.leftorange
+{
+	BACKGROUND: #ff7300;
+	FLOAT: left;
+	WIDTH: 15px;
+	HEIGHT: 1200px;
+}
+#main div.rightinfo
+{
+	MARGIN-TOP: 10px;
+	FLOAT: right;
+	WIDTH: 763px;
+}
+
+#main div.word 
+{
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	WIDTH: 95%;
+	TEXT-ALIGN: left;
+}
+
+#main w
+{
+	COLOR: #ff0000;
+}
+
+#main div.title
+{
+	BACKGROUND: url(../../images/000001.gif) no-repeat 0px 8px;
+	FLOAT: left;
+	MARGIN: 8px 0px 8px 12px;
+	WIDTH: 700px;
+	PADDING-TOP: 3px;
+	BORDER-BOTTOM: #666 1px dotted;
+	HEIGHT: 28px;
+}
+
+#main div.title UL
+{
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-BOTTOM: 5px;
+	MARGIN: 0px;
+	PADDING-TOP: 5px;
+	LIST-STYLE-TYPE: none;
+	TEXT-ALIGN: left;
+}
+
+#main div.title UL LI
+{
+	PADDING-LEFT: 20px;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 14px;
+	FLOAT: left;
+	WIDTH: 200px;
+	COLOR: #000;
+}
+
+#main div.content 
+{
+	PADDING: 0px;
+	FLOAT: left;
+	WIDTH: 778px;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+#main #name
+{
+	MARGIN-TOP: 4px;
+	FLOAT: left;
+	WIDTH: 165px;
+}
+
+#main #name div.text
+{
+	FONT-SIZE: 12px;
+	FLOAT: left;
+	WIDTH: 145px;
+	TEXT-ALIGN: right;
+}
+
+#main div.text1
+{
+	MARGIN-TOP: 4px;
+	WIDTH: 100px;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	FLOAT: left;
+	TEXT-ALIGN: right;
+}
+
+#main div.text2
+{
+	MARGIN-TOP: 4px;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	FLOAT: left;
+	TEXT-ALIGN: right;
+}
+
+#name div.redstar
+{
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 12px;
+	FLOAT: right;
+	WIDTH: 10px;
+	COLOR: #ff0000;
+	MARGIN-RIGHT: 3px;
+	TEXT-ALIGN: right;
+}
+
+.infobox 
+{
+	FONT-SIZE:9px;
+	COLOR:#FF0000;
+	FONT-FAMILY: 宋体;
+	TEXT-ALIGN: left;
+	FLOAT: left;
+}
+
+div.clearboth
+{
+	CLEAR: both;
+	BORDER-TOP: 0px;
+	MARGIN-TOP: 0px;
+	VISIBILITY: hidden;
+}
+
+div.input 
+{
+	FONT-SIZE: 12px;
+	FLOAT: left;
+	WIDTH: 250px;
+	TEXT-ALIGN: left;
+}
+
+div.input1 
+{
+	FONT-SIZE: 12px;
+	FLOAT: left;
+	WIDTH: 520px;
+	TEXT-ALIGN: left;
+}
+
+div span
+{
+	height:22px;
+	line-height:22px;
+}
+
+.img_visable
+{
+	DISPLAY:block;
+	FLOAT: left;
+}
+
+.img_null
+{
+	DISPLAY: none;
+	FLOAT: left;	
+}
+
+
+.top
+{
+	height:26px;
+	line-height:26px;
+	font-size:14px;
+	text-align:center;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+.s1
+{
+	FONT-SIZE: 12px; 
+	height:14px;
+	line-height:14px;
+	background-color:#EFF6FB;
+}
+
+.red {
+	COLOR: #ff0000
+}
+

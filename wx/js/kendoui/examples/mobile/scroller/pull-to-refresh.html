@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pull to refresh</title>
+    <script src="../../../js/jquery.min.js"></script>
+    <script src="../../../js/kendo.mobile.min.js"></script>
+    <script src="../../content/shared/js/console.js"></script>
+    <link href="../../../styles/kendo.common.min.css" rel="stylesheet" />
+    <link href="../../../styles/kendo.mobile.all.min.css" rel="stylesheet" />
+</head>
+<body>
+    <a href="../index.html">Back</a>
+    <div data-role="view" data-title="Pull to refresh" id="scroller-view" data-init="initPullToRefreshScroller">
+    <h2 id="pull-to-refresh-clock"></h2>
+</div>
+
+<style scoped>
+    #pull-to-refresh-clock {
+        padding: 190px 0px 300px 0px;
+        text-align: center;
+    }
+
+</style>
+<script>
+    function updateClock() {
+        pullTime = kendo.toString(new Date(), "hh:mm:ss tt" );
+        $("#pull-to-refresh-clock").html("Last update at " + pullTime + ". <br /> Pull to refresh.");
+    }
+
+    function initPullToRefreshScroller(e) {
+        var scroller = e.view.scroller;
+        updateClock();
+
+        scroller.setOptions({
+            pullToRefresh: true,
+            pull: function() {
+                updateClock();
+                setTimeout(function() { scroller.pullHandled(); }, 400);
+            }
+        })
+    }
+</script>
+
+
+
+    <script>
+        window.kendoMobileApplication = new kendo.mobile.Application(document.body);
+    </script>
+</body>
+</html>

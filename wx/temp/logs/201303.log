@@ -1,0 +1,4 @@
+Fri, 29 Mar 2013 11:33:09 +0800	[2]print_r() expects at least 1 parameter, 0 given	D:\YOKA\HTML\www.newb2b2c.cc\service\weixin\app\c\indexControl.php	16
+Sat, 30 Mar 2013 12:08:44 +0800	[256]MySQL Error[1146]: Table 'newb2b2c.cosmetic' doesn't exist
+MySQL Query:select * from cosmetic where id=2363
+Wrong File:  D:\YOKA\HTML\www.newb2b2c.cc\service\weixin\mvc\lib\dbmysql.lib.php[572]	D:\YOKA\HTML\www.newb2b2c.cc\service\weixin\mvc\lib\dbmysql.lib.php	269

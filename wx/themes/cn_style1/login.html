@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={$charset}" />
+<title>{$lang.login_required}- CJCMS</title>
+<script type="text/javascript" src="{lib file=jquery/jquery.js}" charset="utf-8"></script>
+<script type="text/javascript" src="{lib file=jquery.plugins/jquery.validate.js}" charset="utf-8"></script>
+<link href="{$css_base}/admin.css" rel="stylesheet" type="text/css" />
+<link href="{$css_base}/login.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+
+#enter .fm
+{
+	width:310px;
+	height:200px;
+	padding-top:10px;
+}
+
+.content
+{
+	width:100%;
+	height:30px;
+	float:left;
+}
+
+.content .content_name
+{
+	width:63px;
+	float:left;
+	height:30px;
+	line-height:30px;
+	text-align:right;
+	padding-right:4px;
+}
+
+.content .content_input
+{
+	width:223px;
+	float:left;
+	height:24px;
+	padding-top:6px;
+}
+
+
+</style>
+
+<script type="text/javascript">
+if (self != top)
+{
+    /* 在框架内，则跳出框架 */
+    top.location = self.location;
+}
+
+$(function(){
+    $('#user_name').focus();
+});
+
+$.validator.setDefaults({
+	submitHandler: function() { alert("submitted!"); }
+});
+/*
+$().ready(function(){
+	$("#frm_login").validate({
+		//设置默认的状态为keyup，也可以设置为blur
+		event: "keyup",
+		//设定规则
+		rules:{
+			user_name:{
+				required: true,
+				minlength: 2,
+				maxlength: 16
+			},
+		},
+		messages: {
+			user_name:{
+				required: "请填写用户名",
+				minlength: "字符长度不能小于2个字符",
+				maxlength: "字符长度不能大于16个字符"
+			},
+		},
+	});
+});
+*/
+</script>
+</head>
+<body>
+<div id="enter">
+    <h1><img alt="{$lang.mvc_admin}" src="{$img_base}/enter_logo.gif" /></h1>
+	<form id="frm_login" method="post">
+		<div class="fm">
+			<div class="content" style="margin-top:3px; display:inline;">
+				<div class="content_name">
+					<label class="req" for="user_name">用户名：</label>
+				</div>
+				<div class="content_input">
+					<input type="text" id="user_name" name="user_name" minlength="2" maxlength="16" style="width:170px;">
+				</div>
+			</div>
+			
+			<div class="content" style="margin-top:3px; display:inline;">
+				<div class="content_name">
+					<label class="req" for="user_name">密&nbsp;码：</label>
+				</div>
+				<div class="content_input">
+					<input type="password" id="password" name="password" minlength="2" style="width:170px;">
+				</div>
+			</div>
+			
+			<div class="content" style="margin-top:26px; display:inline; padding-left:28px;">
+				<input class="btnEnter" type="submit" name="" value="" />
+				<input class="btnBack" type="button" name="" value="" onclick="go('{$site_url}')"/>
+				<input class="btnBorget" type="button" name="" value="" onclick="go('{$site_url}/index.php?app=find_password')"/>
+			</div>		
+			
+		</div>
+	</form>
+</div>
+
+</body>
+
+</html>

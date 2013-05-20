@@ -1,0 +1,28 @@
+<xml>
+    <ToUserName><![CDATA[{$fromUsername}]]></ToUserName>
+    <FromUserName><![CDATA[{$toUsername}]]></FromUserName>
+    <CreateTime>{$time}</CreateTime>
+    <MsgType><![CDATA[news]]></MsgType>
+    <Content><![CDATA[{$v.post_content|html2text}]]></Content>
+    <ArticleCount>{$count}</ArticleCount>
+    <Articles>
+    <volist name='volist' id='v'>
+        <empty name='v[datatype]'>
+            <item>
+                <Title><![CDATA[{$v.title}]]></Title>
+                <Description><![CDATA[{$v.content|html2text}]]></Description>
+                <PicUrl><![CDATA[http://www.mpp9.com/imgdata/{:randimg('12')}.jpg]]></PicUrl>
+                <Url><![CDATA[http://jicools.7.5vv.cc/?p={$v.ID}]]></Url>
+            </item>
+        <else />
+            <item>
+                <Title><![CDATA[{$v.title}]]></Title>
+                <Description>{$v.msg}</Description>
+                <PicUrl><![CDATA[{$v.picurl}]]></PicUrl>
+                <Url><![CDATA[{$v.url}]]></Url>
+            </item>
+        </empty>
+    </volist>
+    </Articles>
+    <FuncFlag>0</FuncFlag>
+</xml>
